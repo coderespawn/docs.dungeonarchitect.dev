@@ -1,0 +1,80 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat"><html lang="en-US" data-colors-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8">  <meta name="built-on" content="2024-01-24T13:10:25.9635727"><meta name="build-number" content="${buildNumber}">       <title>Transform Rule | Dungeon Architect for Unity</title><script id="virtual-toc-data" type="application/json">[{"id":"example-1","level":0,"title":"Example #1","anchor":"#example-1"},{"id":"example-2","level":0,"title":"Example #2","anchor":"#example-2"},{"id":"example-3","level":0,"title":"Example #3","anchor":"#example-3"}]</script><script id="topic-shortcuts" type="application/json"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.6.6-b205/app.css" rel="stylesheet">   <link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><link rel="manifest" href="https://jetbrains.com/site.webmanifest"><link rel="mask-icon" href="https://jetbrains.com/safari-pinned-tab.svg" color="#000000"><meta name="msapplication-TileColor" content="#000000"/><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"/><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"/><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"/><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"/><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"/>  <meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Transform Rule | Dungeon Architect for Unity"/><meta property="og:description" content=""/><meta property="og:image" content=""/><meta property="og:site_name" content="Dungeon Architect for Unity Help"/><meta property="og:type" content="website"/><meta property="og:locale" content="en_US"/><meta property="og:url" content="/unity/1.0/advtheme-transform-rule.html"/><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Transform Rule | Dungeon Architect for Unity"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebPage", "@id": "/unity/1.0/advtheme-transform-rule.html#webpage", "url": "/unity/1.0/advtheme-transform-rule.html", "name": "Transform Rule | Dungeon Architect for Unity", "description": "", "image": "", "inLanguage":"en-US" }</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json"> { "@type": "WebSite", "@id": "/unity/#website", "url": "/unity/", "name": "Dungeon Architect for Unity Help" }</script><!-- End Schema.org --></head>      <body data-id="advtheme-transform-rule" data-main-title="Transform Rule" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}"  data-template="article"  data-breadcrumbs="advanced-theming-overview.md|Advanced Theming"  >   <div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Dungeon Architect for Unity 1.0 Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="advtheme-transform-rule"   id="advtheme-transform-rule.md">Transform Rule</h1>  <p id="db6338f0_1">Dungeon Architect lets you specify offsets to your visual nodes to move/scale/rotate them from their relative marker locations.</p><figure  id="db6338f0_2"><img alt="Ut 07 05" src="dungeon-architect-docs/ut-07-05.png" title="Ut 07 05"  width="603" height="285"></figure><p id="db6338f0_3">However, if you want a more dynamic way of applying offsets (based on scripts), you can do so with a <span class="emphasis" id="db6338f0_4">Transform Rule</span>. This can be very useful for adding variations to your levels for certain props</p><p id="db6338f0_5">You can create new transform rules by implementing the TransformationRule class under the DungeonArchitect namespace</p><div class="code-block" data-lang="c"         >
+using UnityEngine;
+using System.Collections;
+using DungeonArchitect;
+using DungeonArchitect.Utils;
+
+public class RandomRotYTransformRule : TransformationRule {
+    
+    public override void GetTransform(PropSocket socket, DungeonModel model, Matrix4x4 propTransform, System.Random random, out Vector3 outPosition, out Quaternion outRotation, out Vector3 outScale) {
+        base.GetTransform(socket, model, propTransform, random, out outPosition, out outRotation, out outScale);
+
+        // Your transform logic here. 
+        // Update the outPosition, outRotation or outScale if necessary
+    }
+}
+</div><p id="db6338f0_7">Attach this script to the theme node</p><figure  id="db6338f0_8"><img alt="Ut 07 06" src="dungeon-architect-docs/ut-07-06.png" title="Ut 07 06"  width="611" height="391"></figure><section class="chapter"><h2 id="example-1" data-toc="example-1"   >Example #1</h2><p id="db6338f0_9">In this example, the cliff rocks are facing the same direction and do not look organic</p><figure  id="db6338f0_10"><img alt="Ut 07 07" src="dungeon-architect-docs/ut-07-07.jpg" title="Ut 07 07"  width="1500" height="727"></figure><p id="db6338f0_11">After applying the transform script to the rock node, it looks much better</p><figure  id="db6338f0_12"><img alt="Ut 07 08" src="dungeon-architect-docs/ut-07-08.jpg" title="Ut 07 08"  width="1500" height="728"></figure><figure  id="db6338f0_13"><img alt="Ut 07 09" src="dungeon-architect-docs/ut-07-09.png" title="Ut 07 09"  width="861" height="545"></figure><div class="code-block" data-lang="c"         >
+using UnityEngine;
+using System.Collections;
+using DungeonArchitect;
+using DungeonArchitect.Utils;
+
+public class RandomCliffTransformRule : TransformationRule {
+    public override void GetTransform(PropSocket socket, DungeonModel model, Matrix4x4 propTransform, System.Random random, out Vector3 outPosition, out Quaternion outRotation, out Vector3 outScale) {
+        base.GetTransform(socket, model, propTransform, random, out outPosition, out outRotation, out outScale);
+        
+        // Randomly rotate along the Y-axis
+        var angle = random.NextFloat() * 360;
+        var rotation = Quaternion.Euler(0, angle, 0);
+        outRotation = rotation;
+
+        // Slightly translate the node
+        var variation = new Vector3(0.25f, -1, 0.25f);
+        outPosition = Vector3.Scale (random.OnUnitSphere(), variation);
+    }
+}
+</div></section><section class="chapter"><h2 id="example-2" data-toc="example-2"   >Example #2</h2><p id="db6338f0_15">In this example a small random rotation is applied to ground tiles. This might be useful while creating ruins when laying down broken tile meshes</p><figure  id="db6338f0_16"><img alt="Ut 07 12" src="dungeon-architect-docs/ut-07-12.jpg" title="Ut 07 12"  width="1200" height="689"></figure><div class="code-block" data-lang="c"         >
+using UnityEngine;
+using System.Collections;
+using DungeonArchitect;
+using DungeonArchitect.Utils;
+
+public class BrokenTilesTransformRule : TransformationRule {
+
+    public float maxAngle = 5;
+
+    public override void GetTransform(PropSocket socket, DungeonModel model, Matrix4x4 propTransform, System.Random random, out Vector3 outPosition, out Quaternion outRotation, out Vector3 outScale) {
+        base.GetTransform(socket, model, propTransform, random, out outPosition, out outRotation, out outScale);
+        
+        var rx = random.Range(-maxAngle, maxAngle);
+        var ry = random.Range(-maxAngle, maxAngle);
+        var rz = random.Range(-maxAngle, maxAngle);
+    
+        outRotation = Quaternion.Euler(rx, ry, rz);
+    }
+}
+</div></section><section class="chapter"><h2 id="example-3" data-toc="example-3"   >Example #3</h2><p id="db6338f0_18">In this example, the outer trees are spawned in the same height as the dungeon layout</p><figure  id="db6338f0_19"><img alt="Ut 07 10" src="dungeon-architect-docs/ut-07-10.jpg" title="Ut 07 10"  width="1637" height="894"></figure><p id="db6338f0_20">We have a terrain that Dungeon Architect modifies and its steepness value is controlled by the user using a curve.</p><p id="db6338f0_21">So, we would like to clamp this tree&rsquo;s base on the dynamic terrain.</p><figure  id="db6338f0_22"><img alt="Ut 07 11" src="dungeon-architect-docs/ut-07-11.jpg" title="Ut 07 11"  width="1641" height="898"></figure><p id="db6338f0_23">This is done by finding the height of the terrain at that location, and creating an offset such that the tree would move up or down to properly clamp on it</p><div class="code-block" data-lang="c"         >
+using UnityEngine;
+using System.Collections;
+using DungeonArchitect;
+using DungeonArchitect.Utils;
+
+public class ClampToTerrainTransformRule : TransformationRule {
+    
+    public override void GetTransform(PropSocket socket, DungeonModel model, Matrix4x4 propTransform, System.Random random, out Vector3 outPosition, out Quaternion outRotation, out Vector3 outScale) {
+        base.GetTransform(socket, model, propTransform, random, out outPosition, out outRotation, out outScale);
+
+        var terrain = Terrain.activeTerrain;
+        if (terrain == null) {
+            return;
+        }
+
+        var position = Matrix.GetTranslation(ref propTransform);
+        var currentY = position.y;
+        var targetY = LandscapeDataRasterizer.GetHeight(terrain, position.x, position.z);
+
+        // Apply an offset so we are touching the terrain
+        outPosition.y = targetY - currentY;
+    }
+}
+</div></section><div class="last-modified"> Last modified: 24 January 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom">  <a class="navigation-links__prev" href="advtheme-selection-rule.html">Selection Rule</a>   <a class="navigation-links__next" href="advtheme-item-spawn-listener.html">Item Spawn Listener</a>  </div></article><div id="disqus_thread"></div></div></section></main></div>  <script src="https://resources.jetbrains.com/writerside/apidoc/6.6.6-b205/app.js"></script></body></html>

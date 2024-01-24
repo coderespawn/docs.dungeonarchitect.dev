@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Documentation</title>
+    
+<style>
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #222222;
+   }
+   
+   li {
+     float: left;
+     padding-left: 20px;
+   }
+   
+   li p {
+     display: block;
+     padding: 8px;
+     font-size: large;
+     color: #ddd;
+   }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0px;
+}
+
+#body-content {
+   padding: 50px;
+   align-content: center;
+   font-size: x-large;
+   text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.last-modified {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.doc-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.unreal {
+    background-color: #555;
+}
+
+.unreal:hover {
+    background-color: #111;
+}
+
+.unity {
+    background-color: #555;
+}
+
+.unity:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+   <ul>
+      <li><p>Dungeon Architect Documentation</p></li>
+   </ul>
+   <div id="body-content">
+      Please select the game engine:
+      <div class="doc-selection">
+         <a href="unreal/" class="doc-link unreal">Unreal Engine</a>
+         <a href="unity/" class="doc-link unity">Unity Engine</a>
+     </div>
+   </div>
+</body>
+</html>
