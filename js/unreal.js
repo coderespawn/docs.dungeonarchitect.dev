@@ -15,12 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
             switchText.style.marginRight = '10px'; // Spacing
 
             // Create the Unreal text (not a link)
-            var unrealLink = document.createElement('a');
-            unrealLink.href = '/unreal';
-            unrealLink.textContent = 'Unreal';
-            unrealLink.style.fontSize = '1em'; // Bigger font size
-            unrealLink.style.color = 'grey'; // Grey color
-            unrealLink.style.marginRight = '10px'; // Spacing
+            var unrealText = document.createElement('span');
+            unrealText.textContent = 'Unreal';
+            unrealText.style.fontSize = '1.2em'; // Bigger font size
+            unrealText.style.marginRight = '10px'; // Spacing
 
             // Create the Unity link
             var unityLink = document.createElement('a');
@@ -31,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Append elements to the container
             switchContainer.appendChild(switchText);
-            switchContainer.appendChild(unrealLink);
+            switchContainer.appendChild(unrealText);
             switchContainer.appendChild(unityLink);
 
             // Append the container to the divider
