@@ -29,7 +29,7 @@ public class MyDungeonListener : DungeonEventListener
 
 Next, drop this script on the dungeon game object.  Whenever the dungeon get fully built, the `OnPostDungeonBuild` function gets automatically called
 
-![](../../../images/unity/tutorial/13/ut-13-52.png)
+![](../images/unity/tutorial/13/ut-13-52.png)
 
 
 Get the full list of events from the API docs [here](http://coderespawn.github.io/dungeon-architect-api-doc-unity/class_dungeon_architect_1_1_dungeon_event_listener.html)

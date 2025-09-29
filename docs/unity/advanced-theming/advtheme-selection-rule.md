@@ -6,7 +6,7 @@ title: Selection Rule
 
 We use the probability parameter to decide if we want to select and insert a certain object into the scene.   If you need more control, you could write your own selection rules scripts
 
-![](../../../images/unity/tutorial/07/ut-07-04.png)
+![](../images/unity/tutorial/07/ut-07-04.png)
 
 ## API
 
@@ -29,14 +29,14 @@ bool CanSelect(PropSocket socket, Matrix4x4 propTransform, DungeonModel model, S
 
 In this example the towers are too crowded and close to each other.
 
-![](../../../images/unity/tutorial/07/ut-07-01.jpg)
+![](../images/unity/tutorial/07/ut-07-01.jpg)
 
 
 A selector rule is created to select alternate cells
 
-![](../../../images/unity/tutorial/07/ut-07-02.jpg)
+![](../images/unity/tutorial/07/ut-07-02.jpg)
 
-![](../../../images/unity/tutorial/07/ut-07-03.jpg)
+![](../images/unity/tutorial/07/ut-07-03.jpg)
 
 
 ```c#

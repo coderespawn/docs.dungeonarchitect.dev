@@ -7,7 +7,7 @@ Register your modules in the `DungeonSnap` game object so Dungeon Architect can 
 
 Inspect the DungeonSnap Game Object
 
-![](../../../images/unity/tutorial/05/ut-05-register_mod_01.png)
+![](../images/unity/tutorial/05/ut-05-register_mod_01.png)
 
 Here we've registered the two modules and assigned a Category to them (e.g. Room, Corridor, TreasureRoom,
 MiniBoss, MainBoss, SpawnRoom, Exit etc).

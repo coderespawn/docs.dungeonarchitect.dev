@@ -4,7 +4,7 @@ title: Properties
 
 Continuing on the scene created in the section [Design your first Theme](design-first-theme.md), open the scene and select the ``DungeonGrid`` game object and inspect the properties
 
-![](../../../images/unity/tutorial/06/ut-06-01.png)
+![](../images/unity/tutorial/06/ut-06-01.png)
 
 * Change the ``Seed`` parameter to build a different dungeon layout
 * Set the ``Grid Cell Size`` parameter according to your moduler art asset. If the ground mesh is 4x4 and the stair mesh height is 2, set this to ``(4, 2, 4)``

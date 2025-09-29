@@ -11,9 +11,9 @@ You do this by calling the `Build()` function on the Dungeon component
 Create a new C# script anywhere in the project window
 
 
-![](../../../images/unity/tutorial/13/ut-13-28.png)
+![](../images/unity/tutorial/13/ut-13-28.png)
 
-![](../../../images/unity/tutorial/13/ut-13-29.png)
+![](../images/unity/tutorial/13/ut-13-29.png)
 
 
 Open the script for editing
@@ -41,22 +41,22 @@ DungeonArchitect namespace `using DungeonArchitect;`
 
 Create a new GameObject and rename it to something appropriate
 
-   ![](../../../images/unity/tutorial/13/ut-13-30.png)
+   ![](../images/unity/tutorial/13/ut-13-30.png)
 
-   ![](../../../images/unity/tutorial/13/ut-13-31.png)
+   ![](../images/unity/tutorial/13/ut-13-31.png)
 
 
 Reset the transform
 
-![](../../../images/unity/tutorial/13/ut-13-32.png)
+![](../images/unity/tutorial/13/ut-13-32.png)
 
-![](../../../images/unity/tutorial/13/ut-13-33.png)
+![](../images/unity/tutorial/13/ut-13-33.png)
 
 Add our script to this game object
 
-![](../../../images/unity/tutorial/13/ut-13-34.png)
+![](../images/unity/tutorial/13/ut-13-34.png)
 
-![](../../../images/unity/tutorial/13/ut-13-35.png)
+![](../images/unity/tutorial/13/ut-13-35.png)
 
 Notice the `Dungeon` parameter is exposed. This is because we made a public attributed named `dungeon` in our code
 
@@ -66,14 +66,14 @@ public Dungeon dungeon;
 
 Assign your dungeon reference here.
 
-![](../../../images/unity/tutorial/13/ut-13-36.png)
+![](../images/unity/tutorial/13/ut-13-36.png)
 
 
 When you hit play, this dungeon will be built (since we call `dungeon.Build()` in the `Start` method)
 
-![](../../../images/unity/tutorial/13/ut-13-38.png)
+![](../images/unity/tutorial/13/ut-13-38.png)
 
-![](../../../images/unity/tutorial/13/ut-13-37.jpg)
+![](../images/unity/tutorial/13/ut-13-37.jpg)
 
 
 

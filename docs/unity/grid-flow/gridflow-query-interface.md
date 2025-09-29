@@ -17,7 +17,7 @@ Use this to selectively decorate your dungeons based on various conditions
 Select the Grid Flow Dungeon game object and make sure `GridFlowDungeonQuery` script is added to it.  If not, add it
 
 
-![Added to the Enemy prefab](../../../images/unity/tutorial/15/ut-15-01.png)
+![Added to the Enemy prefab](../images/unity/tutorial/15/ut-15-01.png)
 
 > Do not add this script if it's already attached to the game object
 
@@ -25,7 +25,7 @@ Select the Grid Flow Dungeon game object and make sure `GridFlowDungeonQuery` sc
 
 Decorate your dungeons based on the room type (e.g. Room, Cave, Corridor)
 
-![Added to the Enemy prefab](../../../images/unity/tutorial/15/ut-15-03.jpg)
+![Added to the Enemy prefab](../images/unity/tutorial/15/ut-15-03.jpg)
 
 
 > Check the samples here: `Assets/CodeRespawn/DungeonArchitect_Samples/DemoBuilder_GridFlow_Query` 
@@ -62,14 +62,14 @@ Notice the last line `return roomType == GridFlowLayoutNodeRoomType.Cave;`   Che
 Attach this script to the theme nodes that are used to selectively decorate the caves
 
 
-![Added to the Enemy prefab](../../../images/unity/tutorial/15/ut-15-04.png)
+![Added to the Enemy prefab](../images/unity/tutorial/15/ut-15-04.png)
 
 
 ## Query Path Name
 
 Decorate your dungeons based on the path (e.g. Shops, Treasure Rooms, Main Path, Alt Path etc)
 
-![Added to the Enemy prefab](../../../images/unity/tutorial/15/ut-15-02.jpg)
+![Added to the Enemy prefab](../images/unity/tutorial/15/ut-15-02.jpg)
 
 Create a selector script as shown below and specify your path name there
 

@@ -4,7 +4,7 @@ title: Transform Rule
 
 Dungeon Architect lets you specify offsets to your visual nodes to move/scale/rotate them from their relative marker locations.
 
-![](../../../images/unity/tutorial/07/ut-07-05.png)
+![](../images/unity/tutorial/07/ut-07-05.png)
 
 However, if you want a more dynamic way of applying offsets (based on scripts), you can do so with a *Transform Rule*. This can be very useful for adding variations to your levels for certain props
 
@@ -29,20 +29,20 @@ public class RandomRotYTransformRule : TransformationRule {
 
 Attach this script to the theme node
 
-![](../../../images/unity/tutorial/07/ut-07-06.png)
+![](../images/unity/tutorial/07/ut-07-06.png)
 
 ## Example #1
 
 In this example, the cliff rocks are facing the same direction and do not look organic
 
 
-![](../../../images/unity/tutorial/07/ut-07-07.jpg)
+![](../images/unity/tutorial/07/ut-07-07.jpg)
 
 After applying the transform script to the rock node, it looks much better
 
-![](../../../images/unity/tutorial/07/ut-07-08.jpg)
+![](../images/unity/tutorial/07/ut-07-08.jpg)
 
-![](../../../images/unity/tutorial/07/ut-07-09.png)
+![](../images/unity/tutorial/07/ut-07-09.png)
 
 ```c#
 using UnityEngine;
@@ -70,7 +70,7 @@ public class RandomCliffTransformRule : TransformationRule {
 
 In this example a small random rotation is applied to ground tiles. This might be useful while creating ruins when laying down broken tile meshes
 
-![](../../../images/unity/tutorial/07/ut-07-12.jpg)
+![](../images/unity/tutorial/07/ut-07-12.jpg)
 
 ```c#
 using UnityEngine;
@@ -99,13 +99,13 @@ public class BrokenTilesTransformRule : TransformationRule {
 In this example, the outer trees are spawned in the same height as the dungeon layout
 
 
-![](../../../images/unity/tutorial/07/ut-07-10.jpg)
+![](../images/unity/tutorial/07/ut-07-10.jpg)
 
 We have a terrain that Dungeon Architect modifies and its steepness value is controlled by the user using a curve.
 
 So, we would like to clamp this tree’s base on the dynamic terrain.
 
-![](../../../images/unity/tutorial/07/ut-07-11.jpg)
+![](../images/unity/tutorial/07/ut-07-11.jpg)
 
 This is done by finding the height of the terrain at that location, and creating an offset such that the tree would move up or down to properly clamp on it
 

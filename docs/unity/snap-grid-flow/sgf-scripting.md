@@ -12,18 +12,18 @@ Use position constraints to control where the node grows.
 
 We want to restrict the main path to the ground floor and have another path grow only on the top floor like this:
 
-![](../../../images/unity/tutorial/14/ut-14-07.png)
+![](../images/unity/tutorial/14/ut-14-07.png)
 
 
 Start by creating a grid and a main path.  Without constraints, it grows anywhere on the grid
 
-![](../../../images/unity/tutorial/14/ut-14-01.png)
+![](../images/unity/tutorial/14/ut-14-01.png)
 
 
 We'll restrict the growth to be only on the ground-floor.  Select the `Create Main Path` node and inspect the properties
 
 
-![](../../../images/unity/tutorial/14/ut-14-02.png)
+![](../images/unity/tutorial/14/ut-14-02.png)
 
 Set the `Position Constraint Mode` to `Script`.  
 
@@ -31,7 +31,7 @@ We can now pass in a script with our own rules and constraints for growing this 
 
 Create a new C# script with any name and set it up like below:
 
-![](../../../images/unity/tutorial/14/ut-14-03.png)
+![](../images/unity/tutorial/14/ut-14-03.png)
 
 ```c#
 using DungeonArchitect;
@@ -62,16 +62,16 @@ public bool CanCreateNodeAt(int currentPathPosition, int totalPathLength, Vector
 
 Assign this script to the `Create Main Path` node
 
-![](../../../images/unity/tutorial/14/ut-14-04.png)
+![](../images/unity/tutorial/14/ut-14-04.png)
 
 Hit Build
 
-![](../../../images/unity/tutorial/14/ut-14-05.png)
+![](../images/unity/tutorial/14/ut-14-05.png)
 
 
 Create another path using the `Create Path` node
 
-![](../../../images/unity/tutorial/14/ut-14-06.png)
+![](../images/unity/tutorial/14/ut-14-06.png)
 
 Add another script so this is restricted to the first floor
 
@@ -85,29 +85,29 @@ public class SGFFirstFloorClampRule : ScriptableObject, ISGFLayoutNodePositionCo
 }
 ```
 
-![](../../../images/unity/tutorial/14/ut-14-07.png)
+![](../images/unity/tutorial/14/ut-14-07.png)
 
 
 ### Example 2
 
 Create a Ring like structure like below:
 
-![](../../../images/unity/tutorial/14/ut-14-18.png)
+![](../images/unity/tutorial/14/ut-14-18.png)
 
 
 Start by creating a setup as follows:
 
-![](../../../images/unity/tutorial/14/ut-14-10.png)
+![](../images/unity/tutorial/14/ut-14-10.png)
 
-![](../../../images/unity/tutorial/14/ut-14-11.png)
+![](../images/unity/tutorial/14/ut-14-11.png)
 
-![](../../../images/unity/tutorial/14/ut-14-12.png)
+![](../images/unity/tutorial/14/ut-14-12.png)
 
-![](../../../images/unity/tutorial/14/ut-14-13.png)
+![](../images/unity/tutorial/14/ut-14-13.png)
 
 Run it and you see a graph generated like this:
 
-![](../../../images/unity/tutorial/14/ut-14-14.png)
+![](../images/unity/tutorial/14/ut-14-14.png)
 
 We'll now apply rules so the green path takes up the outer ring, the orange path the middle ring and the purple node in the center
 
@@ -129,11 +129,11 @@ public class SGFPosConstRingOuter :  ScriptableObject, ISGFLayoutNodePositionCon
 }
 ```
 
-![](../../../images/unity/tutorial/14/ut-14-15.png)
+![](../images/unity/tutorial/14/ut-14-15.png)
 
 This will restrict the green path to the boundary
 
-![](../../../images/unity/tutorial/14/ut-14-16.png)
+![](../images/unity/tutorial/14/ut-14-16.png)
 
 
 #### Middle Ring
@@ -154,9 +154,9 @@ public class SGFPosConstRingMiddle :  ScriptableObject, ISGFLayoutNodePositionCo
 }
 ```
 
-![](../../../images/unity/tutorial/14/ut-14-17.png)
+![](../images/unity/tutorial/14/ut-14-17.png)
 
-![](../../../images/unity/tutorial/14/ut-14-18.png)
+![](../images/unity/tutorial/14/ut-14-18.png)
 
 
 ## Snap Module Constraints
@@ -164,7 +164,7 @@ public class SGFPosConstRingMiddle :  ScriptableObject, ISGFLayoutNodePositionCo
 Control the room modules that should be used in any of the path nodes.    By default, the room modules are defined in the 
 `Snap Modules Categories` array of the *Create Main Path* and *Create Path* nodes.
 
-![](../../../images/unity/tutorial/14/ut-14-19.png)
+![](../images/unity/tutorial/14/ut-14-19.png)
 
 
 You can have more control on this and provide your own array for any of the nodes in the path using a snap module constraint script
@@ -211,6 +211,6 @@ so it can pick one up from the list
 
 Assign to the `Create Main Path` node
 
-![](../../../images/unity/tutorial/14/ut-14-20.png)
+![](../images/unity/tutorial/14/ut-14-20.png)
 
 

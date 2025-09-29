@@ -5,17 +5,17 @@ title: Key Lock System
 The spawned Key and Lock game objects will have the following components attached to it by Dungeon Architect
 
 
-![New Components attached to the Key Prefab](../../../images/unity/tutorial/04/ut-04-90.jpg)
+![New Components attached to the Key Prefab](../images/unity/tutorial/04/ut-04-90.jpg)
 
 
-![New Components attached to the Locked Door Prefab](../../../images/unity/tutorial/04/ut-04-91.jpg)
+![New Components attached to the Locked Door Prefab](../images/unity/tutorial/04/ut-04-91.jpg)
 
 
 ## Key Component
 
 The builder will attach a new component ``GridFlowDoorKeyComponent`` to the spawned key prefab
 
-![](../../../images/unity/tutorial/04/ut-04-92.png)
+![](../images/unity/tutorial/04/ut-04-92.png)
 
 
 This component contains the KeyId and a reference to all the locks that this key can open
@@ -30,7 +30,7 @@ This component contains the KeyId and a reference to all the locks that this key
 
 The builder will attach a new component ``GridFlowDoorLockComponent`` to the spawned lock prefab
 
-![](../../../images/unity/tutorial/04/ut-04-93.png)
+![](../images/unity/tutorial/04/ut-04-93.png)
 
 This component contains the LockId and a reference to all the keys that open this lock
 

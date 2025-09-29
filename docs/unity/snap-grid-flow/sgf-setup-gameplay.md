@@ -36,11 +36,11 @@ When Dungeon Architect spawns the Key and Locked Door prefabs, it will automatic
 
 Key Metadata:
 
-![](../../../images/unity/tutorial/12/ut-12-01.jpg)
+![](../images/unity/tutorial/12/ut-12-01.jpg)
   
 Lock Metadata:
 
-![](../../../images/unity/tutorial/12/ut-12-02.jpg)
+![](../images/unity/tutorial/12/ut-12-02.jpg)
 
 Notice how the key references the lock id and the lock references the key id
 

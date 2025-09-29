@@ -4,12 +4,12 @@ title: Mini-Map
 
 Display a 2D minimap with fog of war 
 
-![](../../../images/unity/tutorial/04/ut-04-94.jpg)
+![](../images/unity/tutorial/04/ut-04-94.jpg)
    
 
 The ``DungeonGridFlow`` prefab already comes pre-configured with the minimap.  This is done with the ``GridFlowMinimap`` component: 
 
-![](../../../images/unity/tutorial/04/ut-04-95.png)
+![](../images/unity/tutorial/04/ut-04-95.png)
    
 
 | Parameter             | Description                                                                                                       |
@@ -34,12 +34,12 @@ The minimap requires you to provide a Render Texture asset in the `Minimap Textu
 
 Create a new Render Texture asset. Use the Create menu in the Project window: ``Create > Render Texture``
 
-![](../../../images/unity/tutorial/04/ut-04-96.png)
+![](../images/unity/tutorial/04/ut-04-96.png)
 
 
 Select the Render Texture asset and inspect the properties
 
-![](../../../images/unity/tutorial/04/ut-04-97.png)
+![](../images/unity/tutorial/04/ut-04-97.png)
 
 
 Change the following:
@@ -52,7 +52,7 @@ Change the following:
 
 Assign this `Render Texture` asset to your DungeonGridFlow game object's minimap component
 
-![](../../../images/unity/tutorial/04/ut-04-98.jpg)
+![](../images/unity/tutorial/04/ut-04-98.jpg)
 
 
 Dungeon Architect will automatically update this texture based on the specified `Update Frequency`. You can assign this texture anywhere on your UI. You can also attach it on a mesh
@@ -64,19 +64,19 @@ Open the game sample scene: ``Assets/DungeonArchitect_Samples/DemoBuilder_GridFl
 There's a UI canvas in the hierarchy. Expand and inspect it:
 
 
-![](../../../images/unity/tutorial/04/ut-04-99.png)
+![](../images/unity/tutorial/04/ut-04-99.png)
 
 
 There is a `RawImage` Canvas Item in there. It was created like this:
 
-![](../../../images/unity/tutorial/04/ut-04-102.jpg)
+![](../images/unity/tutorial/04/ut-04-102.jpg)
 
 
 Select the RawImage item and configure it like this:
 
-![](../../../images/unity/tutorial/04/ut-04-101.png)
+![](../images/unity/tutorial/04/ut-04-101.png)
 
-![](../../../images/unity/tutorial/04/ut-04-100.jpg)
+![](../images/unity/tutorial/04/ut-04-100.jpg)
 
 The Render Texture was assigned there so it will show our minimap
 
@@ -85,14 +85,14 @@ The Render Texture was assigned there so it will show our minimap
 
 While playing the sample game, if you look down, you notice the player holding a map in the hand (like in Minecraft).   This map shows the minimap in realtime
 
-![](../../../images/unity/tutorial/04/ut-04-103.jpg)
+![](../images/unity/tutorial/04/ut-04-103.jpg)
 
 
 The texture was simply added to an unlit material, and the material was then applied to that mesh
 
 Create a Material as below:
 
-![](../../../images/unity/tutorial/04/ut-04-104.png)
+![](../images/unity/tutorial/04/ut-04-104.png)
 
 * Set the Shader to ``UI/Unlit/Transparent``
 * Set the texture to your Render Texture asset
@@ -113,10 +113,10 @@ You can now apply this material anywhere (e.g. in a large billboard in your worl
 
 The minimap can track any object in the scene.  You do this by adding the `GridFlowMinimapTrackedObject` component to the desired prefab
 
-![Added to the Player prefab](../../../images/unity/tutorial/04/ut-04-105.png)
+![Added to the Player prefab](../images/unity/tutorial/04/ut-04-105.png)
    
    
-![Added to the Enemy prefab](../../../images/unity/tutorial/04/ut-04-106.png)
+![Added to the Enemy prefab](../images/unity/tutorial/04/ut-04-106.png)
 
 
 It has the following features:
