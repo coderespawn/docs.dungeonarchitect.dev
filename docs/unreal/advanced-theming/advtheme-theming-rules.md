@@ -1,0 +1,7 @@
+# Theming Rules
+
+You can attach Blueprint (or C++) based logic on the theme nodes for more control. There are two types of rules 
+you can attach to Visual nodes and we'll explore them in the next sections
+
+
+![Visual Node Rules](G-rules_01.png)

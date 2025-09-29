@@ -1,0 +1,133 @@
+# Launch Pad Window
+
+Use the Launch Pad window to setup new dungeon levels, browse the samples, clone from templates and much more
+
+## Open Launch Pad
+
+Click the ``DA`` button from the main toolbar. This will open the `Launch Pad` window
+
+![Tool button to open Lauch Pad window](C-01.jpg)
+
+With the Launch Pad, you can do the following:
+
+* Browse the various samples scenes
+* Create new scenes with preconfigured builder templates
+* Clone Flow Graphs from existing templates
+* Clone Theme files from existing templates
+* Access the various documentation and support channels
+
+
+![Lauch Pad window](C-02.jpg)
+
+
+## Navigation
+
+Select the various sections from the left.   
+
+![](C-03.png)
+
+Use the navigation bar on the top to go back to a previous page. This is useful for retaining the scroll positions of the previous page (especially for larger pages like the Samples section)
+
+
+![Navigation bar](C-04.jpg)
+
+
+## Samples
+
+Browse the various samples that come bundled with Dungeon Architect
+
+![](C-02.jpg)
+
+There are tons of samples to explore.  Select a sample for more details
+
+![](C-05.jpg)
+
+You can perform various actions on each sample
+
+### Clone Scene
+![](C-06A.png)
+
+Clone this scene and all the relevant assets (referenced themes, flow graphs etc) into the selected directory.   This lets you freely explore and modify the cloned sample map
+
+### Install Dependency
+![](C-06C.png)
+
+Some samples require an external asset from the marketplace (usually free ones like infinity blade assets). This button takes you there so you can install them in your project 
+
+
+### Watch Video
+![](C-06B.png)
+
+Watch a video, if it exists
+
+
+## Builder Templates
+
+Dungeon Architect supports many different types of dungeon layout methods and is designed in a way that new layout methods can be easily added in the future
+
+
+These layout methods are called `Dungeon Builders` or **Builders** in short
+
+![Dungeon Architect - List of Builders](C-07.jpg)
+
+
+
+This section lets you create a new scene preconfigured with one of the builder templates.  Click on any of the builders to see more info.
+
+![](C-08.jpg)
+   
+
+Click the ``Clone Scene`` button to create a new scene preconfigured with this dungeon builder and sample themes to go with it (and any other flow graph assets if needed)
+
+
+## Flow Graph Templates
+
+Flow graphs allow you to control the flow of your dungeon (more on this in the later tutorial sections).   This section contains a list of flow graph templates you can use as a starting point for your project
+
+![](C-09.jpg)
+   
+
+
+![](C-10.png)
+   
+
+Clone the flow graph asset to use as your starting point
+
+## Theme Templates
+
+Clone one of the many themes and use it in your project or as a starting point for a new theme
+
+![Theme template browser](C-11.jpg)
+
+Select a theme and clone it
+
+![](C-12.jpg)
+   
+![](C-13.png)
+   
+
+## Documentation
+
+Links to various online documentation, including this one
+
+![](C-14.png)
+
+## Support
+
+Reach the developers through any one of these channels. Interact with the community and the devs in Discord chat and forums or reach directly through email
+
+![](C-15.png)
+
+## News
+
+Dungeon Architect News!  Find out whats new since the last update
+
+   
+
+
+
+
+
+
+
+
