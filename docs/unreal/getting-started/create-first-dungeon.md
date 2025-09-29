@@ -4,11 +4,11 @@
 
 Create a new Level and drop in a Dungeon actor
 
-![](A-02.jpg)
+![](../images/unreal/tutorial/A/A-02.jpg)
 
 Reset the dungeon actor transform to (0,0,0)
 
-![](A-02BX.png)
+![](../images/unreal/tutorial/A/A-02BX.png)
 
 > Position the dungeon actor at any desired location/rotation to create the dungeon there.
 
@@ -18,9 +18,9 @@ to show these assets
 
 On the top right of the Content Browser window, click the `Settings` button
 
-![](A-04A1.jpg)
+![](../images/unreal/tutorial/A/A-04A1.jpg)
 
-![](A-04A2.png)
+![](../images/unreal/tutorial/A/A-04A2.png)
 
 ## Assign Theme
 
@@ -30,14 +30,14 @@ Select the dungeon actor and inspect the Details panel
 
 Add a new Theme array entry by clicking the plus icon.
  
-![](A-03.png)
+![](../images/unreal/tutorial/A/A-03.png)
 
 
 Search for ``candy`` and select the candy theme
 
-![](A-04.png)
+![](../images/unreal/tutorial/A/A-04.png)
 
-![](A-04A4.png)
+![](../images/unreal/tutorial/A/A-04A4.png)
 
 
 ## Build Dungeon
@@ -45,9 +45,9 @@ Search for ``candy`` and select the candy theme
 * Select the Dungeon actor and inspect the Details Panel
 * Click ``Build Dungeon`` button to generate the dungeon
 
-![](A-05.png)
+![](../images/unreal/tutorial/A/A-05.png)
 
-![](A-06.jpg)
+![](../images/unreal/tutorial/A/A-06.jpg)
 
 ## Randomize Dungeon
 
@@ -57,19 +57,19 @@ Search for ``candy`` and select the candy theme
  
 
 
-![](A-07.png)
+![](../images/unreal/tutorial/A/A-07.png)
 
-![](A-08.jpg)
+![](../images/unreal/tutorial/A/A-08.jpg)
 
 The ``Randomize Seed`` button is a helper function which simply changes the ``Seed`` value in the dungeon configuration.  Changing the ``Seed`` value changes the layout of the dungeon.    If you assign a random value to a seed and build, you'll get a new dungeon layout
 
-![](A-09.png)
+![](../images/unreal/tutorial/A/A-09.png)
    
 ## Organization
 
 When you build a dungeon, all the spawned dungeon actors are placed under a folder named after the dungeon actor's label
 
-![](A-10.png)
+![](../images/unreal/tutorial/A/A-10.png)
 
 
  

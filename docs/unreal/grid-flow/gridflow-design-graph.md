@@ -8,13 +8,13 @@ Close the Grid Flow Editor, if open
 
 Right click on the `Content Browser` and choose `Dungeon Architect > Grid Flow > Grid Flow Graph`.  
 
-![](E-18A.png)
+![](../images/unreal/tutorial/E/E-18A.png)
 
 This will create a new Grid Flow asset. Rename it to something appropriate and double click to open it in the `Grid Flow Editor`
 
-![](E-18.png)
+![](../images/unreal/tutorial/E/E-18.png)
 
-![](E-17.jpg)
+![](../images/unreal/tutorial/E/E-17.jpg)
 
 Notice that there is only one node in the Execution graph, the ``Result`` node.   Our final output should be connected to this node
 
@@ -23,23 +23,23 @@ Notice that there is only one node in the Execution graph, the ``Result`` node. 
 
 Right click on an empty area in the Execution Graph and from the context menu select ``Layout Graph > Create Grid``
 
-![](E-19.png)
+![](../images/unreal/tutorial/E/E-19.png)
 
 
 
 Connect this node to the ``Result`` node and click the ``Build`` button in the toolbar
 
 
-![](E-20.png)
+![](../images/unreal/tutorial/E/E-20.png)
 
 
-![](E-11.png)
+![](../images/unreal/tutorial/E/E-11.png)
 
 
 
 This node creates an initial grid to work with
 
-![](E-21.png)
+![](../images/unreal/tutorial/E/E-21.png)
 
 
 We'll be designing our layout in this grid.   This allows us to work on a higher level abstract graph, making it easier to control the flow.   It will then be transferred over to a tilemap
@@ -51,7 +51,7 @@ Next, we'll create a main path within this grid. The main path has a spawn point
 
 Create a new node ``Layout Graph > Create Main Path``
 
-![](E-22.png)
+![](../images/unreal/tutorial/E/E-22.png)
 
 
 Unlink the ``Create Grid`` node from the ``Result`` node (do this by pressing Alt+LeftClick on the Create Grid Node's border)
@@ -59,12 +59,12 @@ Unlink the ``Create Grid`` node from the ``Result`` node (do this by pressing Al
 
 Click the Build button. A main path would have been created in the grid
 
-![](E-23.png)
+![](../images/unreal/tutorial/E/E-23.png)
 
 
 Keep hitting the `Build` button for different result
 
-![](E-24.gif)
+![](../images/unreal/tutorial/E/E-24.gif)
 
 > Click the image to play
 
@@ -74,7 +74,7 @@ Keep hitting the `Build` button for different result
 
 Select the ``Create Main Path`` node and inspect the properties
 
-![](E-25.png)
+![](../images/unreal/tutorial/E/E-25.png)
 
 We'll leave everything to default for now
 
@@ -82,7 +82,7 @@ Notice the `Path Name` parameter is set to ``main``   This is the name of the pa
 
 You can adjust the size of the path.   ``Start Marker Name`` and ``Goal Marker Name`` lets you specify a name for the markers. You can then create these markers in the theme file and add any object you like.    In the sample theme, there's a marker already created with these names and a Player Start is placed under ``SpawnPoint`` marker and a level goal handler prefab is placed under ``LevelGoal`` marker
 
-![](E-26.png)
+![](../images/unreal/tutorial/E/E-26.png)
 
 
 ## Create Alternate Path
@@ -91,25 +91,25 @@ We'll next create an alternate path branching off the main path so the player ha
 
 Create a new node ``Layout Graph > Create Path``
 
-![](E-27.png)
+![](../images/unreal/tutorial/E/E-27.png)
 
 Connect the nodes together like below
 
-![](E-28.png)
+![](../images/unreal/tutorial/E/E-28.png)
 
 Leave all the properties as default and hit `Build`
 
-![](E-29.png)
+![](../images/unreal/tutorial/E/E-29.png)
 
 
 Select the ``Create Path`` node and inspect the properties
 
-![](E-30.png)
+![](../images/unreal/tutorial/E/E-30.png)
 
 
 Change the `Path Name` from ``branch`` to ``alt``.  We will be referencing this path as ``alt`` in the future
 
-![](E-31.png)
+![](../images/unreal/tutorial/E/E-31.png)
 
 
 You can specify the paths from which this path should start and end.    The `Start From Path` parameter is set to ``main``, referencing the main path we created in the previous section
@@ -118,7 +118,7 @@ The `End On Path` is left empty, so the end of this path doesn't connect back to
 
 Set the `End On Path` parameter to ``main``
 
-![](E-32.png)
+![](../images/unreal/tutorial/E/E-32.png)
 
 
 | Property        | Value  |
@@ -132,20 +132,20 @@ Set the `End On Path` parameter to ``main``
 
 This will make the alternate path (orange) connect back to the main path (green)
 
-![](E-34.png)
+![](../images/unreal/tutorial/E/E-34.png)
 
 
 Keep hitting Build for different results
 
-![](E-33.gif)
+![](../images/unreal/tutorial/E/E-33.gif)
 
 > Click the image to play
 
 Assign a description to the node.  Select the `Create Path` node and set the description property to ``Alternate Path``
 
-![](E-32A.png)
+![](../images/unreal/tutorial/E/E-32A.png)
 
-![](E-32B.png)
+![](../images/unreal/tutorial/E/E-32B.png)
 
 
 ## Create Treasure Room (Main)
@@ -154,7 +154,7 @@ We'll add a treasure room connected to the main path
 
 Add a new node ``Layout Graph > Create Path`` and set it up as follows:
 
-![](E-35.png)
+![](../images/unreal/tutorial/E/E-35.png)
 
 | Property        | Value         |
 |-----------------|---------------|
@@ -165,7 +165,7 @@ Add a new node ``Layout Graph > Create Path`` and set it up as follows:
 | Start From Path | main          |
 | End On Path     | main          |
 
-![](E-36.png)
+![](../images/unreal/tutorial/E/E-36.png)
 
 
 ## Create Treasure Room (Alt)
@@ -174,9 +174,9 @@ We'll add another treasure room connected to the ``alt`` path but keep the ``End
 
 Add a new node ``Layout Graph > Create Path`` and set it up as follows:
 
-![](E-37.png)
+![](../images/unreal/tutorial/E/E-37.png)
 
-![](E-38.png)
+![](../images/unreal/tutorial/E/E-38.png)
 
 | Property        | Value        |
 |-----------------|--------------|
@@ -187,7 +187,7 @@ Add a new node ``Layout Graph > Create Path`` and set it up as follows:
 | Start From Path | alt          |
 | End On Path     |              |
 
-![](E-39.png)
+![](../images/unreal/tutorial/E/E-39.png)
 
 
 ## Create Key Room
@@ -197,9 +197,9 @@ We'll create a room connected to the main path which will act as the key room. W
 Add a new node ``Layout Graph > Create Path`` and set it up as follows:
 
 
-![](E-40.png)
+![](../images/unreal/tutorial/E/E-40.png)
 
-![](E-41.png)
+![](../images/unreal/tutorial/E/E-41.png)
 
 | Property        | Value    |
 |-----------------|----------|
@@ -210,7 +210,7 @@ Add a new node ``Layout Graph > Create Path`` and set it up as follows:
 | Start From Path | main     |
 | End On Path     |          |
 
-![](E-42.png)
+![](../images/unreal/tutorial/E/E-42.png)
 
 > We've named this path ``key_room``. It will be referenced later on when creating the key locks
 {style="note"}
@@ -223,11 +223,11 @@ We'll next create a key-lock system on the main path.  Our key will go on the Ke
 
 Add a new node ``Layout Graph > Create Key Lock`` and set it up as follows:
 
-![](E-43.png)
+![](../images/unreal/tutorial/E/E-43.png)
 
-![](E-44.png)
+![](../images/unreal/tutorial/E/E-44.png)
 
-![](E-46.png)
+![](../images/unreal/tutorial/E/E-46.png)
 
 | Property         | Value    |
 |------------------|----------|
@@ -236,7 +236,7 @@ Add a new node ``Layout Graph > Create Key Lock`` and set it up as follows:
 | Key Marker Name  | KeyRed   |
 | Lock Marker Name | LockRed  |
 
-![](E-45.png)
+![](../images/unreal/tutorial/E/E-45.png)
 
 
 Specify the `Key Branch` as ``key_room`` and `Lock Branch` as ``main``
@@ -245,7 +245,7 @@ Set marker name for the key as ``KeyRed`` and lock as ``LockRed``.    Then in th
 
 The sample theme already has these setup
 
-![](E-KeyRed.png)
+![](../images/unreal/tutorial/E/E-KeyRed.png)
 
 
 ## Create Key-Lock (Treasure Main)
@@ -255,9 +255,9 @@ We need a key-lock to guard the treasure room in the main branch
 Add a new node ``Layout Graph > Create Key Lock`` and set it up as follows:
 
 
-![](E-47.png)
+![](../images/unreal/tutorial/E/E-47.png)
 
-![](E-48.png)
+![](../images/unreal/tutorial/E/E-48.png)
 
 
 | Property         | Value         |
@@ -267,14 +267,14 @@ Add a new node ``Layout Graph > Create Key Lock`` and set it up as follows:
 | Key Marker Name  | KeyYellow     |
 | Lock Marker Name | LockYellow    |
 
-![](E-49.png)
+![](../images/unreal/tutorial/E/E-49.png)
 
 
 Set marker name for the key as ``KeyYellow`` and lock as ``LockYellow``.    Then in the theme file, you'd create marker nodes with these names and add your key and locked gate prefabs.
 
 The sample theme already has these setup
 
-![](E-KeyYellow.png)
+![](../images/unreal/tutorial/E/E-KeyYellow.png)
 
 
 ## Spawn Enemies (Main, Alt)
@@ -284,12 +284,12 @@ We'll use the ``Spawn Items`` node to spawn enemies on the ``main`` and ``alt`` 
 Create a new node ``Layout Graph > Spawn Items`` and set it up as follows:
 
 
-![](E-50.png)
+![](../images/unreal/tutorial/E/E-50.png)
 
-![](E-52.png)
+![](../images/unreal/tutorial/E/E-52.png)
 
 
-![](E-51.png)
+![](../images/unreal/tutorial/E/E-51.png)
 
 
 | Property    | Value     |
@@ -300,7 +300,7 @@ Create a new node ``Layout Graph > Spawn Items`` and set it up as follows:
 | Min Count   | 1         |
 | Max Count   | 5         |
 
-![](E-53.png)
+![](../images/unreal/tutorial/E/E-53.png)
 
 
 This will spawn enemies in the nodes, gradually increasing the number of enemies based on the difficulty. The difficulty increases as we get closer to the goal. You can control this from the `Spawn Method` properties. Leave it to default for now
@@ -308,7 +308,7 @@ This will spawn enemies in the nodes, gradually increasing the number of enemies
 
 We've specified the marker name as ``Grunt`` and an appropriate marker node should be created in the theme file so we can spawn prefabs under it.  The sample theme already has this marker
 
-![](E-54.png)
+![](../images/unreal/tutorial/E/E-54.png)
 
 
 ## Spawn Bonus (Treasure Chests)
@@ -319,9 +319,9 @@ Spawn treasure chests in your bonus rooms using the `Spawn Items` node
 Create a new node ``Layout Graph > Spawn Items`` and set it up as follows:
 
 
-![](E-55.png)
+![](../images/unreal/tutorial/E/E-55.png)
 
-![](E-56.png)
+![](../images/unreal/tutorial/E/E-56.png)
 
 
 | Property             | Value                       |
@@ -333,7 +333,7 @@ Create a new node ``Layout Graph > Spawn Items`` and set it up as follows:
 | Max Count            | 1                           |
 | Min Spawn Difficulty | 1                           |
 
-![](E-57.png)
+![](../images/unreal/tutorial/E/E-57.png)
 
 
 We've specified the marker name as ``Treasure`` and an appropriate marker node should be created in the theme file so we can spawn prefabs the treasure chest under it.
@@ -349,9 +349,9 @@ Create a new node ``Layout Graph > Spawn Items`` and set it up as follows:
 
 
 
-![](E-58.png)
+![](../images/unreal/tutorial/E/E-58.png)
 
-![](E-59.png)
+![](../images/unreal/tutorial/E/E-59.png)
 
 
 | Property    | Value       |
@@ -362,7 +362,7 @@ Create a new node ``Layout Graph > Spawn Items`` and set it up as follows:
 | Min Count   | 1           |
 | Max Count   | 1           |
 
-![](E-60.png)
+![](../images/unreal/tutorial/E/E-60.png)
 
 You'll need to create a marker named ``KeyGuardian`` in the theme file and place your NPC prefab under it.   This marker doesn't exist in the sample theme and you'll need to create it yourself if you want to visualize it
 
@@ -377,9 +377,9 @@ Create a new node ``Layout Graph > Spawn Items`` and set it up as follows:
 
 
 
-![](E-61.png)
+![](../images/unreal/tutorial/E/E-61.png)
 
-![](E-62.png)
+![](../images/unreal/tutorial/E/E-62.png)
 
 
 | Property                            | Value        |
@@ -395,7 +395,7 @@ Create a new node ``Layout Graph > Spawn Items`` and set it up as follows:
 | Custom Item Info > Text Color       | Red          |
 | Custom Item Info > Background Color | White        |
 
-![](E-63.png)
+![](../images/unreal/tutorial/E/E-63.png)
 
 
 > You'll need to create a marker named ``HealthPickup`` in your theme file and add your health pack actor. The sample theme doesn't contain this
@@ -412,16 +412,16 @@ After we are done designing the layout graph, we'll need to finalize it with the
 
 Create a new node ``Layout Graph > Finalize Graph`` and set it up as follows:
 
-![](E-64.png)
+![](../images/unreal/tutorial/E/E-64.png)
 
-![](E-65.png)
+![](../images/unreal/tutorial/E/E-65.png)
 
 Leave all the properties to default
 
-![](E-67.png)
+![](../images/unreal/tutorial/E/E-67.png)
 
 
-![](E-66.gif)
+![](../images/unreal/tutorial/E/E-66.gif)
 
 > Click the image to play
 
@@ -433,16 +433,16 @@ We are now ready to create a tilemap from this
 
 Create a new node ``Tilemap > Initialize Tilemap`` and set it up as follows:
 
-![](E-70.png)
+![](../images/unreal/tutorial/E/E-70.png)
 
 
-![](E-68.png)
+![](../images/unreal/tutorial/E/E-68.png)
 
 
-![](E-69.png)
+![](../images/unreal/tutorial/E/E-69.png)
 
 
-![](E-71B.png)
+![](../images/unreal/tutorial/E/E-71B.png)
 
 ### Cave Thickness
 
@@ -469,9 +469,9 @@ If you want a more uniform grid like look on your rooms, bring the `Perturb Amou
 
 `Layout Padding` adds extra tiles around the dungeon layout.   Set this value to ``5`` so we can apply some decorations outside the dungeon bounds
 
-![](E-72.png)
+![](../images/unreal/tutorial/E/E-72.png)
 
-![](E-73.gif)
+![](../images/unreal/tutorial/E/E-73.gif)
 
 > Click the image to play
 
@@ -483,13 +483,13 @@ When you select a node on the layout graph, the tiles that belong to the node li
 
 After you've initialized a tilemap, you now start to see a dungeon generated in the 3D viewport, representing by the tilemap.
 
-![](E-116.jpg)
+![](../images/unreal/tutorial/E/E-116.jpg)
 
 The dungeon uses a default theme and the preview theme can be changed from the settings
 
-![](E-117.png)
+![](../images/unreal/tutorial/E/E-117.png)
 
-![](E-118.png)
+![](../images/unreal/tutorial/E/E-118.png)
 
 
 
@@ -501,18 +501,18 @@ We are going to create overlays and merge them with the original tilemap.   Crea
 * Create a node ``Tilemap > Create Elevation``
 * Create a node ``Tilemap > Merge Tilemaps``
 
-![](E-74.png)
+![](../images/unreal/tutorial/E/E-74.png)
 
-![](E-75.png)
+![](../images/unreal/tutorial/E/E-75.png)
 
 
 Link them up like below:
 
-![](E-76.png)
+![](../images/unreal/tutorial/E/E-76.png)
 
 Update the properties:
 
-![Create Tilemap Elevation properties](E-77.png)
+![Create Tilemap Elevation properties](../images/unreal/tutorial/E/E-77.png)
 
 
 | Property        | Value                      |
@@ -525,11 +525,11 @@ Update the properties:
 | Land Color      | Brown (HexLinear 291A10FF) |
 | Sea Color       | Blue (HexLinear 003C66FF)  |
 
-![Create Tilemap Elevation Node Result](E-78.png)
+![Create Tilemap Elevation Node Result](../images/unreal/tutorial/E/E-78.png)
 
-![Merged Result](E-78B.png)
+![Merged Result](../images/unreal/tutorial/E/E-78B.png)
 
-![Dungeon Preview](E-79.jpg)
+![Dungeon Preview](../images/unreal/tutorial/E/E-79.jpg)
 
 
 We've specified the marker name as ``Elevation``.   If you place objects under the specified marker node in the theme editor, they will show up on these tiles at the given height.
@@ -539,7 +539,7 @@ We've specified the marker name as ``Elevation``.   If you place objects under t
 
 The sample theme file already contains a marker named 'Elevation' which shows the purple/blue tiles on the scene
 
-![](E-80.png)
+![](../images/unreal/tutorial/E/E-80.png)
 
 There are two nodes attached with material overrides (purple and blue for land and sea tiles).  There's a selector logic on the first node that gets selected if the tile is below sea level.
 
@@ -550,11 +550,11 @@ We'll overlay some foliage on our dungeon using a noise parameter. Dungeon Archi
 
 Create a node ``Tilemap > Create Overlay``
 
-![](E-81.png)
+![](../images/unreal/tutorial/E/E-81.png)
 
-![Create Overlay Node Connection](E-83.png)
+![Create Overlay Node Connection](../images/unreal/tutorial/E/E-83.png)
 
-![Create Overlay Node properties](E-84.png)
+![Create Overlay Node properties](../images/unreal/tutorial/E/E-84.png)
 
 
 | Property            | Value |
@@ -578,20 +578,20 @@ Merge Config:
 | Max Height         | 1                        |
 | Wall Override Rule | Keep Wall Remove Overlay |
 
-![Result of the Grass Overlay Node](E-85.png)
+![Result of the Grass Overlay Node](../images/unreal/tutorial/E/E-85.png)
 
-![Merged result](E-86.png)
+![Merged result](../images/unreal/tutorial/E/E-86.png)
 
 We've specified the marker name as ``Grass``.   You'll need to create this marker in the theme file and assign a mesh there.  The sample theme already contains this
 
-![](E-82.png)
+![](../images/unreal/tutorial/E/E-82.png)
 
-![Dungeon Preview](E-87.jpg)
+![Dungeon Preview](../images/unreal/tutorial/E/E-87.jpg)
 
 
-![Before / After Tilemap Result](E-88.gif)
+![Before / After Tilemap Result](../images/unreal/tutorial/E/E-88.gif)
 
-![Before / After Dungeon Result](E-89.gif)
+![Before / After Dungeon Result](../images/unreal/tutorial/E/E-89.gif)
 
 > Click the images to play
 
@@ -601,13 +601,13 @@ Finalize the tilemap to complete the grid flow graph
 
 Create a node ``Tilemap > Finalize Tilemap``
 
-![](E-90.png)
+![](../images/unreal/tutorial/E/E-90.png)
 
 
-![](E-92.png)
+![](../images/unreal/tutorial/E/E-92.png)
 
 
-![](E-91.png)
+![](../images/unreal/tutorial/E/E-91.png)
 
 Finalize Tilemap node places all the items on to the tilemap (enemies, keys, bonus etc)
 
@@ -616,33 +616,33 @@ Finalize Tilemap node places all the items on to the tilemap (enemies, keys, bon
 
 When the tilemap based level is generated, there are many tiles that the player might never see, as they are far away from the dungeon layout
 
-![](E-98.jpg)
+![](../images/unreal/tutorial/E/E-98.jpg)
 
 
 The `Optimize Tilemap` removes tiles that are away from the specified distance from the dungeon layout bounds
 
 
-![Optimize Tilemap Node Result](E-96.png)
+![Optimize Tilemap Node Result](../images/unreal/tutorial/E/E-96.png)
 
 
 Create a node ``Tilemap > Optimize Tilemap``
 
-![](E-93.png)
+![](../images/unreal/tutorial/E/E-93.png)
 
 Connect it before the `Finalize Tilemap` node like below:
 
-![](E-99.png)
+![](../images/unreal/tutorial/E/E-99.png)
 
 Set the `Discard Distance from Layout` value to ``5``
 
-![Optimize Tilemap Node properties](E-100.png)
+![Optimize Tilemap Node properties](../images/unreal/tutorial/E/E-100.png)
 
 
 This will drop any tiles that are 5 tiles away from the nearest layout tile
 
 
-![Optimize Tilemap Before / After](E-97.gif)
+![Optimize Tilemap Before / After](../images/unreal/tutorial/E/E-97.gif)
 
-![Optimize Dungeon Preview Before / After](E-95.gif)
+![Optimize Dungeon Preview Before / After](../images/unreal/tutorial/E/E-95.gif)
 
 > Click the images to play

@@ -9,7 +9,7 @@ Alternatively, if you want to generate the same dungeon (e.g. in a multiplayer g
 
 Select the Dungeon actor and open the level blueprint.   Right click and create the `Dungeon1` node (referencing the selected actor)
 
-![Randomize Dungeon Seed](X-randomize_seed.png)
+![Randomize Dungeon Seed](../images/unreal/tutorial/X/X-randomize_seed.png)
 
 Here, we grab the config object of the dungeon actor and change the seed variable to a random value, before calling build
 

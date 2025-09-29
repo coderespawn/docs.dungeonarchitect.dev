@@ -8,7 +8,7 @@ Otherwise, it would fill up the gap with the specified Wall mesh (or blueprint)
 
 Right click on the content browser and create a connection asset
 
-![](D-connection_1.png)
+![](../images/unreal/tutorial/D/D-connection_1.png)
 
 Double click and open up the editor.  Here you specify the mesh or blueprint to use for the Door and Wall.
 
@@ -16,14 +16,14 @@ Your wall mesh thickness should be the same as the wall thickness you used while
 
 Specify the proto cube mesh for the walls
 
-![](D-connection_2.png)
+![](../images/unreal/tutorial/D/D-connection_2.png)
 
-![](D-connection_3.png)
+![](../images/unreal/tutorial/D/D-connection_3.png)
 
 
 Adjust the size so it is 400x100x400. Always make sure the red arrow points outwards and the wall mesh is behind it (because that is how we are going to align our connection actor later on)
 
-![](D-connection_4.png)
+![](../images/unreal/tutorial/D/D-connection_4.png)
 
 
 We can specify the door blueprint as well but we'll leave it empty in this example. When designing your door meshes, make sure the thickness is twice the thickness of the walls (since we account for the adjacent room as well and the thickness is aligned such that it is in the middle of the red arrow)
@@ -32,7 +32,7 @@ Close the connection editor window
 
 Drag and drop the connection asset on the door opening
 
-![](D-connection_5.png)
+![](../images/unreal/tutorial/D/D-connection_5.png)
 
 
 Make sure the alignment arrow is pointing outwards and is on the edge of the screen
@@ -42,10 +42,10 @@ Make sure the alignment arrow is pointing outwards and is on the edge of the scr
 {style="note"}
 
 
-![](D-proto_mesh3.png)
+![](../images/unreal/tutorial/D/D-proto_mesh3.png)
 
-![](D-connection_6.png)
+![](../images/unreal/tutorial/D/D-connection_6.png)
 
 Repeat by drag-dropping on all the door openings.   Do this for all the other modules as well (like the corridor module)
 
-![](D-connection_7.png)
+![](../images/unreal/tutorial/D/D-connection_7.png)

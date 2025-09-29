@@ -8,7 +8,7 @@ Open the map where we set up our dungeon in the [previous](sgf-build-dungeon.md)
 
 ### Enable Level Streaming
 
-![](J-206.png)
+![](../images/unreal/tutorial/J/J-206.png)
 
 Select the `Dungeon` actor and set `Enable Level Streaming` to true. Update the following parameters:
 
@@ -33,47 +33,47 @@ in the spawn room, place the player in the spawn room and start the game
 
 ### Create Blueprint
 
-![](J-207.png)
+![](../images/unreal/tutorial/J/J-207.png)
 
-![](J-208.png)
+![](../images/unreal/tutorial/J/J-208.png)
 
 > Choose `GameMode` and not `GameModeBase`
 {style="warning"}
 
 Open the blueprint 
 
-![](J-209.png)
+![](../images/unreal/tutorial/J/J-209.png)
 
 
 ### Setup BeginPlay
 
 Create the following two variables:
 
-![](J-211.png)
+![](../images/unreal/tutorial/J/J-211.png)
 
 Create a boolean variable named `DungeonReady` as follows:
 
-![](J-212.png)
+![](../images/unreal/tutorial/J/J-212.png)
 
 Create a Dungeon Actor variable named `Dungeon` as follows:
 
-![](J-213.png)
+![](../images/unreal/tutorial/J/J-213.png)
 
 
 Add this to the `BeginPlay` (right click the below image and click `Open Image in New Tab` for larger view)
 
-![](J-210.png)
+![](../images/unreal/tutorial/J/J-210.png)
 
 
 This blueprint does a few things:
 
 * Find a reference to an existing dungeon actor in the scene and save it in the `Dungeon` variable
 
-  ![](J-214.png)
+  ![](../images/unreal/tutorial/J/J-214.png)
 
 * Hook to an event that fires when the initial chunks are fully streamed in
 
-  ![](J-215.png)
+  ![](../images/unreal/tutorial/J/J-215.png)
 
   We've previously configured the dungeon actor to load the spawn room as an initial chunk.   So this will fire after
   the spawn room is fully loaded in and visible.    
@@ -84,11 +84,11 @@ This blueprint does a few things:
   After the spawn room is fully loaded, we set the flag `DungeonReady` to true to start the game (more on the shortly)
 * Randomize the dungeon before building it.   This gives us a different dungeon every time we play
 
-  ![](J-216.png)
+  ![](../images/unreal/tutorial/J/J-216.png)
 
 * Finally, build the dungeon
 
-  ![](J-217.png)
+  ![](../images/unreal/tutorial/J/J-217.png)
 
 
 ### ReadyToStartMatch
@@ -104,9 +104,9 @@ been fully streamed in.   We will override this function and simply return the v
 
 Override the `ReadyToStartMatch` function
 
-![](J-218.png)
+![](../images/unreal/tutorial/J/J-218.png)
 
-![](J-219.png)
+![](../images/unreal/tutorial/J/J-219.png)
 
 
 This will make the game wait in spectator mode till the dungeon is built, and the spawn room is fully streamed in
@@ -119,11 +119,11 @@ to choose the `PlayerStart` character that was streamed in along with the spawn 
 
 Start by overriding the `FindPlayerStart` function in the *GameMode* blueprint
 
-![](J-221.png)
+![](../images/unreal/tutorial/J/J-221.png)
 
 Implement the function as shown below (right click the below image and click `Open Image in New Tab` for larger view)
 
-![](J-220.png)
+![](../images/unreal/tutorial/J/J-220.png)
 
 We check if the dungeon is ready (i.e. the spawn room is fully streamed in). If so, we search for a `PlayerStart` actor,
 which we know will be there, since we've configured the spawn room to have one.  Otherwise, we return the player 
@@ -145,9 +145,9 @@ in the main scene file, to make sure that doesn't get picked up
 
 In the map where we set up our dungeon actor, make sure we don't have a `PlayerStart` actor.  If there's one, delete it
 
-![](J-222.png)
+![](../images/unreal/tutorial/J/J-222.png)
 
-![](J-223.png)
+![](../images/unreal/tutorial/J/J-223.png)
 
 
 ### Set Game Mode
@@ -156,48 +156,48 @@ We created a `GameMode` blueprint, and we'd like to use it in this map.  Open up
 
 From the Level Editor's main toolbar, choose `Settings > World Settings`
 
-![](J-224.png)
+![](../images/unreal/tutorial/J/J-224.png)
 
 This will open up the World Settings panel.   Set the Game Mode to the blueprint we just created
 
-![](J-225.png)
+![](../images/unreal/tutorial/J/J-225.png)
 
 
 Hit Play.  A random dungeon will be built, and you will be moved to the spawn room
 
-![](J-226.jpg)
+![](../images/unreal/tutorial/J/J-226.jpg)
 
 ### Add Character class
 
 Let's add a first person character, so we can walk around and open doors.  Add a First Person (or third person) content
 pack from the Content Browser's `Add New` button
 
-![](J-227.png)
+![](../images/unreal/tutorial/J/J-227.png)
 
-![](J-228.jpg)
+![](../images/unreal/tutorial/J/J-228.jpg)
 
 
 Navigate to the content folder and find the character blueprint
 
-![](J-229.png)
+![](../images/unreal/tutorial/J/J-229.png)
 
 Open the GameMode blueprint we created earlier and assign this character blueprint to it 
 
 Open the game blueprint: 
 
-![](J-209.png)
+![](../images/unreal/tutorial/J/J-209.png)
 
 Click `Class Defaults`
 
-![](J-230.png)
+![](../images/unreal/tutorial/J/J-230.png)
 
 Set the `Default Pawn Class` to the FPS character blueprint
 
-![](J-231.png)
+![](../images/unreal/tutorial/J/J-231.png)
 
 Save and Hit Play
 
-![](J-232.jpg)
+![](../images/unreal/tutorial/J/J-232.jpg)
 
 You can now move around and walk through normal doors
 
@@ -216,13 +216,13 @@ Dungeon Architect provides a few helper components to make this easy
 
 Open the character blueprint (FirstPersonCharacter or ThirdPersonCharacter)
 
-![](J-234.jpg)
+![](../images/unreal/tutorial/J/J-234.jpg)
 
 Add the simple inventory component that comes along with the samples
 
-![](J-235.png)
+![](../images/unreal/tutorial/J/J-235.png)
 
-![](J-236.png)
+![](../images/unreal/tutorial/J/J-236.png)
 
 
 You should now be able to walk around the dungeon, pick up keys and open locked doors
@@ -233,7 +233,7 @@ Add a UI to show the keys in the inventory. We do this with a player controller
 
 Create a new Player Controller and add this to the Begin Play
 
-![](J-237.png)
+![](../images/unreal/tutorial/J/J-237.png)
 
 Set the UI reference to `DungeonArchitect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_FPS > Blueprints > UI > DA_SGF_HUD.DA_SGF_HUD`
 
@@ -250,7 +250,7 @@ the valid *lock flow* items, and you can use this to check if the keys can open 
 Navigate to the following folder and check how the sample keys and locks are implemented:
 `DungeonArchitect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_SideScroller > Snap > Connection > Blueprints > BP_SGF_Key_Base`
 
-![](J-238.jpg)
+![](../images/unreal/tutorial/J/J-238.jpg)
 
 
 

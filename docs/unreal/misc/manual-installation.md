@@ -5,6 +5,6 @@ If you have purchased your copy of Dungeon Architect from Code Respawn, you can 
 * In your game’s root directory, create a folder named Plugins
 * Copy the `DungeonArchitect` folder found in this archive under `Plugin/4.X/` into your game’s plugin folder (which was created in step 1). For example, in the ShooterGame sample demo, the directory structure should look like this:
 
-  ![](X-install_step1.png)
+  ![](../images/unreal/tutorial/X/X-install_step1.png)
 	
 * Restart the Unreal Editor (if already open) and verify that the Dungeon Architect plugin is [enabled](enable-plugin.md)

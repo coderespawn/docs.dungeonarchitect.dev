@@ -12,7 +12,7 @@ You'll need a custom player controller to do two things:
 
 Open your player controller and create your UI widget and add to viewport
 
-![image|690x289](583839d36fe04688000534c8bbaaa9baba664ee0.png)
+![image|690x289](../images/unreal/tutorial/Canvas/583839d36fe04688000534c8bbaaa9baba664ee0.png)
 
 This will make the UI show up when your game starts. The Dungeon Canvas widget you placed in your UI will auto register itself when it constructs. So there's no more setup required here on the UI side
 
@@ -20,7 +20,7 @@ This will make the UI show up when your game starts. The Dungeon Canvas widget y
 
 Open up your Player Controller blueprint and add the `DungeonCanvasPlayerController` component to it
 
-![C001.png](C001.png)
+![C001.png](../images/unreal/tutorial/Canvas/C001.png)
 
 Whenever you possess a character in game, it automatically takes care of the following:
 * Setting up that character as a Fog of War explorer
@@ -30,6 +30,6 @@ When the character is UnPossessed (e.g. in death), it will take care of cleaning
 
 No more setup is required here.  You may select the component and modify the fog of war settings and the icon settings
 
-![C002.png](C002.png)
+![C002.png](../images/unreal/tutorial/Canvas/C002.png)
 
 > Note: The `Icon Name` maps to the icon list registered in the canvas theme asset

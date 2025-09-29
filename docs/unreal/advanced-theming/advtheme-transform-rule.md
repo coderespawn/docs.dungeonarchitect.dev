@@ -3,7 +3,7 @@
 Dungeon Architect lets you specify offsets to your visual nodes to move/scale/rotate them from their relative marker locations.
 
 
-![Static node Offset](G-offset.png)
+![Static node Offset](../images/unreal/tutorial/G/G-offset.png)
 
 
 However, if you want a more dynamic way of applying offsets (based on blueprint or C++ logic), you can do so with a *Transform Rule*.  This can be very useful to add variations to your levels for certain props
@@ -13,17 +13,17 @@ However, if you want a more dynamic way of applying offsets (based on blueprint 
 To assing an existing rule into the node, Check the **Use Transform Logic** property and select the rule you would like to attach to the node from the dropdown list
 
 
-![Assign an existing Transform Rule](G-transform_rule_01b.png)
+![Assign an existing Transform Rule](../images/unreal/tutorial/G/G-transform_rule_01b.png)
 
 Create a new Transform rule by creating a new blueprint class derived from the appropriate DungeonTransformLogic.  It should match the builder you are targeting
 
 
-![Create a new Selection Rule](G-transform_rule_01a.png)
+![Create a new Selection Rule](../images/unreal/tutorial/G/G-transform_rule_01a.png)
 
 Open up the blueprint and override the **Get Node Offset** function. This function will be called by the engine and the logic you put here will let you decide on the offset that needs to be applied on this node
 
 
-![Override function to define logic](G-transform_rule_04.png)
+![Override function to define logic](../images/unreal/tutorial/G/G-transform_rule_04.png)
 
 
 ## Example #1
@@ -31,27 +31,27 @@ Open up the blueprint and override the **Get Node Offset** function. This functi
 In this example, a single rock mesh is randomly rotated, and slightly scaled and translated to give a nice cave like look
 
 
-![Rocks randomly rotated, translated and scaled](G-transform_rule_eg1_1.jpg)
+![Rocks randomly rotated, translated and scaled](../images/unreal/tutorial/G/G-transform_rule_eg1_1.jpg)
 
 A different transformation rule is applied to ceiling stone meshes for more variations
 
 
-![Transform rule applied to rock nodes](G-transform_rule_eg1_2.jpg)
+![Transform rule applied to rock nodes](../images/unreal/tutorial/G/G-transform_rule_eg1_2.jpg)
 
 
-![Cliff Random rotation rule](G-transform_rule_eg1_3.png)
+![Cliff Random rotation rule](../images/unreal/tutorial/G/G-transform_rule_eg1_3.png)
 
 ## Example #2
 
 Here is an example where alternate pipes are rotated by 180 degrees to give a visually appealing look
 
 
-![Alternate meshes are rotated by 180 degrees](G-transform_rule_eg2_1.jpg)
+![Alternate meshes are rotated by 180 degrees](../images/unreal/tutorial/G/G-transform_rule_eg2_1.jpg)
 
 This was done by rotating the mesh node by 180 degrees for every alternate cell (similar to the checker rule logic seen previously)
 
 
-![Rule assignment](G-transform_rule_eg2_2.jpg)
+![Rule assignment](../images/unreal/tutorial/G/G-transform_rule_eg2_2.jpg)
 
 
 ## Example #3
@@ -59,8 +59,8 @@ This was done by rotating the mesh node by 180 degrees for every alternate cell 
 In this example a small random rotation is applied to orange ground tiles.  Useful while creating ruins when laying down broken tile meshes
 
 
-![Transform rule applied to orange ground meshes](G-vol_platform_04c.jpg)
+![Transform rule applied to orange ground meshes](../images/unreal/tutorial/G/G-vol_platform_04c.jpg)
 
 
-![Transformation Rule Blueprint](G-transform_rule_eg3_1.png)
+![Transformation Rule Blueprint](../images/unreal/tutorial/G/G-transform_rule_eg3_1.png)
 

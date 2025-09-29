@@ -7,11 +7,11 @@ Event listeners are blueprints that get notified on various dungeon events. Thes
 
 Create a Event listener blueprint by choosing `DungeonEventListener` as the base class
 
-![Event Listener](H-event_listener_create.png)
+![Event Listener](../images/unreal/tutorial/H/H-event_listener_create.png)
 
 Override any of the function events to get notified.  This function will be called by Dungeon Architect if your blueprint is registered with the Dungeon actor
 
-![Event Listener](H-event_listener_create2.png)
+![Event Listener](../images/unreal/tutorial/H/H-event_listener_create2.png)
 
 
 ## Registration
@@ -20,7 +20,7 @@ You need to register this blueprint with the dungeon actor to get its event noti
 
 Select the Dungeon Actor and Navigate to the `Advanced` category in the Details tab and choose your blueprint class
 
-![Event Listener](H-event_listener_create3.png)
+![Event Listener](../images/unreal/tutorial/H/H-event_listener_create3.png)
 
 
 ## Event Callbacks
@@ -44,7 +44,7 @@ This event is called after all the markers are emitted in the scene.   This even
 This could be useful for automatically clamping dungeon items on a landscape or to apply some filter on the markers like the one shown below (see quick start guide for an example)
 
 
-![Event Listener](H-event_listener_filter.jpg)
+![Event Listener](../images/unreal/tutorial/H/H-event_listener_filter.jpg)
 
 
 ### On Post Dungeon Build

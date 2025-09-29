@@ -11,22 +11,22 @@ The last node of your flow graph should always be the `Finalize Graph` node.  Th
 Open the flow graph we designed earlier and add a `Finalize Graph` node
 
 
-![](J-201.png)
+![](../images/unreal/tutorial/J/J-201.png)
 
 Link it before the `Result` node as shown below
 
-![](J-202.png)
+![](../images/unreal/tutorial/J/J-202.png)
 
 Build the graph and have a look at the layout graph
 
-![](J-203.jpg)
+![](../images/unreal/tutorial/J/J-203.jpg)
 
 Some links are converted to one-way doors, and they are represented by a double arrow head in orange color
 
 We have already specified a one-way door asset in the connection editor in the 
 [previous](sgf-connections.md#setup-one-way-door-asset) section
 
-![](J-204.jpg)
+![](../images/unreal/tutorial/J/J-204.jpg)
 
 This one-way door blueprint will be used in those locations
 
@@ -36,7 +36,7 @@ Open the scene where we previously [set up](sgf-build-dungeon.md) our dungeon.  
 
 You should see one-way doors spawn where needed
 
-![](J-205.jpg)
+![](../images/unreal/tutorial/J/J-205.jpg)
 
 ---
 

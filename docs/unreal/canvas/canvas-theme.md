@@ -9,9 +9,9 @@ You can use an existing theme, or create your own
 
 Navigate to the following path and open an existing Dungeon Canvas Theme Asset
 
-![C003.png](C003.png)
+![C003.png](../images/unreal/tutorial/Canvas/C003.png)
 
-![](C004.jpg)
+![](../images/unreal/tutorial/Canvas/C004.jpg)
 
 Click on the different material layers to modify their properties,  and the preview viewport updates in realtime.
 
@@ -21,17 +21,17 @@ Add new layers with the Add button on the Material Layer panel's toolbar
 
 Right-click on the content browser and select `Dungeon Architect > Dungeon Canvas > Dungeon Canvas Material Theme`
 
-![](C005.png)
+![](../images/unreal/tutorial/Canvas/C005.png)
 
 Open the asset to edit it in the Dungeon Canvas Theme Editor
 
-![](C006.png)
+![](../images/unreal/tutorial/Canvas/C006.png)
 
 Add a `Layout Texture` layer. This will draw the layout on to the material
 
-![](C007.png)
+![](../images/unreal/tutorial/Canvas/C007.png)
 
-![C008](C008.png)
+![C008](../images/unreal/tutorial/Canvas/C008.png)
 
 Add a few more layers in the following order
 
@@ -39,24 +39,24 @@ Add a few more layers in the following order
 * Outline
 * Border Decoration
 
-![C009.png](C009.png)
+![C009.png](../images/unreal/tutorial/Canvas/C009.png)
 
 Now add a `Background Texture` layer
 
-![C010.png](C010.png)
+![C010.png](../images/unreal/tutorial/Canvas/C010.png)
 
-![C011.png](C011.png)
+![C011.png](../images/unreal/tutorial/Canvas/C011.png)
 
 The entire screen has turned white.  This is due to the background texture being overlaid on top of everything
 
-![C012.png](C012.png)
+![C012.png](../images/unreal/tutorial/Canvas/C012.png)
 
 Reorder the `Background Texture` layer to the bottom layer by dragging it to the bottom
 
-![C013.png](C013.png)
+![C013.png](../images/unreal/tutorial/Canvas/C013.png)
 
 Change the background from the settings panel
 
-![](C014.jpg)
+![](../images/unreal/tutorial/Canvas/C014.jpg)
 
 Feel free to modify the properties on the different layers

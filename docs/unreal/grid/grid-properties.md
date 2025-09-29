@@ -2,7 +2,7 @@
 
 Continuing on the map created in the section [Design your First Theme](design-first-theme.md), open the map and select the `Dungeon` actor and inspect the properties
 
-![](F-02.png)
+![](../images/unreal/tutorial/F/F-02.png)
 
 * Change the ``Seed`` parameter to build a different dungeon layout
 * Set the ``Grid Cell Size`` parameter according to your moduler art asset. If the ground mesh is 400x400 and the stair mesh height is 200, set this to ``(400, 400, 200)``

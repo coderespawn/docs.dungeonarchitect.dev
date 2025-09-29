@@ -4,4 +4,4 @@ You can attach Blueprint (or C++) based logic on the theme nodes for more contro
 you can attach to Visual nodes and we'll explore them in the next sections
 
 
-![Visual Node Rules](G-rules_01.png)
+![Visual Node Rules](../images/unreal/tutorial/G/G-rules_01.png)

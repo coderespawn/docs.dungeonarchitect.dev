@@ -20,7 +20,7 @@ Since this builder uses parts of the Snap builder and the Flow framework, you ca
 
 You'll design the flow graph in a 3D Layout Grid 
 
-![](J-02.jpg)
+![](../images/unreal/tutorial/J/J-02.jpg)
 
 The snap rooms are required to be of a fixed size (that is chosen by you), so they all can fit nicely and
 can be stitched inside the 3D grid. 
@@ -28,15 +28,15 @@ can be stitched inside the 3D grid.
 However, you may also design your snap rooms to span multiple nodes in the flow graph. The flow framework is smart enough to identify these rooms 
 and use them appropriately in the flow graph:
 
-![](J-01.jpg)
+![](../images/unreal/tutorial/J/J-01.jpg)
 
 
 In this example, the goal room was designed to be 2x2x2 the size of the chunk.    The flow framework identified it and
 created a larger node appropriately while building the flow graph 
 
-![](J-03.jpg)
+![](../images/unreal/tutorial/J/J-03.jpg)
 
-![](J-04.jpg)
+![](../images/unreal/tutorial/J/J-04.jpg)
 
 
 The flow framework will also read the available doors you've setup in your snap modules and use that configuration

@@ -6,4 +6,4 @@ combine PCG with the Dungeon Architect toolset
 <video src="https://youtu.be/iplZmwlaSq0" />
 
 
-![image-intro-01.png](X-image-intro-01.png)
+![image-intro-01.png](../images/unreal/tutorial/X/X-image-intro-01.png)

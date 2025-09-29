@@ -1,6 +1,6 @@
 # Check Performance
 
-![](J-149.png)
+![](../images/unreal/tutorial/J/J-149.png)
 
 Find bottlenecks in your dungeon graph designs and optimize them using the Performance Analyzer. It shows how many attempts were made to build the dungeon.
 
@@ -11,14 +11,14 @@ It is normal for a dungeon to make multiple attempts before converging to a solu
 
 Open up our flow graph editor and reassign the Module database in the Editor Settings, as we've done previously
 
-![](J-73.jpg)
+![](../images/unreal/tutorial/J/J-73.jpg)
 
 
 Please the Play button on the `Performance Stats` window
 
-![](J-148.png)
+![](../images/unreal/tutorial/J/J-148.png)
 
-![](J-161.png)
+![](../images/unreal/tutorial/J/J-161.png)
 
 We are running 300 test cases, where we generate random dungeons with current graph setup.    Each test case will
 take a certain number of retries before converging to a solution

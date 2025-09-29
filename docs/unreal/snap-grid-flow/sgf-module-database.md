@@ -14,19 +14,19 @@ We'll create a new module database asset and register the module that we created
 
 Right click on the Content Browser and choose `Dungeon Architect > Snap Grid Flow > Snap Grid - Module Database`
 
-![](J-41.png)
+![](../images/unreal/tutorial/J/J-41.png)
 
-![](J-42.png)
+![](../images/unreal/tutorial/J/J-42.png)
 
 Double click the newly created asset to open up the editor
 
-![](J-43.png)
+![](../images/unreal/tutorial/J/J-43.png)
 
 ## Assign Bounds Asset
 
 Assign the Module Bounds Asset we've created in the previous section to the Module Database
 
-![](J-74.png)
+![](../images/unreal/tutorial/J/J-74.png)
 
 Every module you assign in this database should be set up with this `Module Bounds` asset
 
@@ -37,14 +37,14 @@ Click the `+` icon next to `Modules` to add a new entry.
 * Leave the Category to `Room`
 * Make sure `Allow Rotation` is enabled
 
-![](J-44.jpg)
+![](../images/unreal/tutorial/J/J-44.jpg)
 
 ## Build Module Cache
 
 Whenever you modify a module or the Module database, you'll need to rebuild the module cache.   This will perform various 
 pre-calculation steps in the editor to make the dungeon generation faster in your game
 
-![](J-45.png)
+![](../images/unreal/tutorial/J/J-45.png)
 
 
 This is an important step, and you need to remember to rebuild the cache whenever necessary.  
