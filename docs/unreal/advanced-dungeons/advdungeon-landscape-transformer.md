@@ -5,7 +5,14 @@ sidebar_position: 7
 
 Using the Landscape Transformer, you can modify a landscape's height and weights (textures) around the dungeon's layout
 
-<video src="https://www.youtube.com/watch?v=9MI9IzNytuY" />
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/9MI9IzNytuY"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
 
 The landscape transformer is implemented as a event listener, so you'll need to register it in the Dungeon actor's event listener list under the Advanced category
 

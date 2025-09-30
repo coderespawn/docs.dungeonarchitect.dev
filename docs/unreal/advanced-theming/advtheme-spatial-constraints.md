@@ -26,4 +26,11 @@ Expand the spatial setup. Here you specify the rules of the adjacent tiles, whet
 
 With this setup, the statues spawn only at the corners
 
-<video src="https://www.youtube.com/watch?v=eL4C42A7rx4" />
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/eL4C42A7rx4"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>

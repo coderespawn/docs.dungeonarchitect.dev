@@ -10,14 +10,35 @@ Explore the sample game which contains many more advanced features (minimaps, ke
 
 ### Sample Game
 
-<video src="https://youtube.com/watch?v=woKkR6P_sHY" />
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/woKkR6P_sHY"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
 
 
 ### MiniMap Demo
 
-<video src="https://youtube.com/watch?v=R5Lcx9YSYpo" />
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/R5Lcx9YSYpo"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
 
 
 ### Multi-Level Dungeons
 
-<video src="https://youtube.com/watch?v=9Crl9tGkHXA" />
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/9Crl9tGkHXA"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
