@@ -5,7 +5,14 @@ sidebar_position: 3
 
 In this tutorial, we'll be creating this:
 
-<video src="https://www.youtube.com/watch?v=iplZmwlaSq0" />
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/iplZmwlaSq0"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
 
 This tutorial build on these two existing tutorials:
 
