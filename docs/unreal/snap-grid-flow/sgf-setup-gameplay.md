@@ -24,10 +24,11 @@ Select the `Dungeon` actor and set `Enable Level Streaming` to true. Update the 
   and stream in all the rooms connected to these rooms, and so on
 
 
-> For side scrollers, set the streaming strategy to `Distance`, this will stream in all the rooms visible on the camera,
+:::note
+For side scrollers, set the streaming strategy to `Distance`, this will stream in all the rooms visible on the camera,
 regardless of their connection depth to the room the player is in.  Update the distance value depending on how far away
 your camera is
-{style="note"}
+:::
 
 ## GameMode Blueprint
 
@@ -134,13 +135,15 @@ which we know will be there, since we've configured the spawn room to have one. 
 character that we received as input to the function (this function might be called multiple times, 
 even in spectator mode, so we need to do this for the engine to work correctly)
 
-> To create the `"Parent FindPlayerStart"` node, right click on the `FindPlayerStart` function and choose 
+:::note
+To create the `"Parent FindPlayerStart"` node, right click on the `FindPlayerStart` function and choose 
 `Add call to Parent function`  
-{style="note"}
+:::
 
-> Make sure there are no other `PlayerStart` actors in the scene.  You'll need to delete the default `PlayerStart` actor
+:::warning
+Make sure there are no other `PlayerStart` actors in the scene.  You'll need to delete the default `PlayerStart` actor
 in the main scene file, to make sure that doesn't get picked up
-{style="warning"}
+:::
 
 
 ## Finalize Game Map

@@ -60,9 +60,10 @@ Make sure the red arrow is aligned correctly as shown in the image above
 
 Our door setup is complete. 
 
-> The door asset is `400` units wide and `500` units tall.  This will nicely cover up
+:::note
+The door asset is `400` units wide and `500` units tall.  This will nicely cover up
 the connection gaps we created in the module in the previous section
-{style="note"}
+:::
 
 
 ## Setup Wall Asset

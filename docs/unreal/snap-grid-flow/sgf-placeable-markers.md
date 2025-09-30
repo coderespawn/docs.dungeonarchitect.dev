@@ -162,9 +162,10 @@ This will update all the marker nodes for that builder.
 
 ![](../images/unreal/tutorial/J/J-125.jpg)
 
-> This will remove unused marker nodes and add the necessary marker nodes used by this builder.  Since the Snap
+:::note
+This will remove unused marker nodes and add the necessary marker nodes used by this builder.  Since the Snap
 Grid Flow builder doesn't have any built-in marker nodes, it will not create any new nodes
-{style="note"}
+:::
 
 ### Create Marker
 

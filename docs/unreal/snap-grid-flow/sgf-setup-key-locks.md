@@ -215,9 +215,10 @@ Right click on the graph and create two marker nodes
 
 ![](../images/unreal/tutorial/J/J-175.jpg)
 
-> We used the names `LockRed` and `LockYellow` since this is what we assigned in the `Create Key/Lock` node 
+:::note
+We used the names `LockRed` and `LockYellow` since this is what we assigned in the `Create Key/Lock` node 
 in the flow graph   
-{style="note"}
+:::
 
 ### Assign Lock Blueprints
 
