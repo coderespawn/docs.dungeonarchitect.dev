@@ -9,8 +9,6 @@
       <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "docs",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/gamedev/docs/docs.dungeonarchitect.dev/docs/unity",
+    "last_opened_file_path": "C:/gamedev/docs/docs.dungeonarchitect.dev/src/pages/unity",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gamedev\docs\docs.dungeonarchitect.dev\src\pages\unity" />
       <recent name="C:\gamedev\docs\docs.dungeonarchitect.dev\docs\unity" />
       <recent name="C:\gamedev\docs\docs.dungeonarchitect.dev\docs\unreal" />
       <recent name="C:\gamedev\docs\docs.dungeonarchitect.dev\unreal" />
@@ -103,6 +102,7 @@
       <workItem from="1759164296778" duration="792000" />
       <workItem from="1759165106047" duration="6654000" />
       <workItem from="1759200852066" duration="6121000" />
+      <workItem from="1759228562813" duration="606000" />
     </task>
     <servers />
   </component>

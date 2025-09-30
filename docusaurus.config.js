@@ -19,7 +19,6 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-
   // Set the production url of your site here
   url: 'https://docs.dungeonarchitect.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -58,24 +57,6 @@ const config = {
           customCss: './src/css/custom.css',
         },
       }),
-    ],
-  ],
-
-  plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        redirects: [
-          {
-            to: '/unreal/unreal-overview',
-            from: ['/unreal', '/unreal/'],
-          },
-          {
-            to: '/unity/unity-overview',
-            from: ['/unity', '/unity/'],
-          },
-        ],
-      },
     ],
   ],
 
@@ -156,14 +137,15 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright (c) ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
+  trailingSlash: true
 };
 
-export default config
+export default config;
 
