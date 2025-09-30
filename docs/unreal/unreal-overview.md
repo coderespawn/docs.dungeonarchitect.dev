@@ -1,5 +1,8 @@
 ---
 title: "Dungeon Architect - Unreal"
+slug: /unreal/unreal-overview
+aliases:
+  - /unreal
 sidebar_position: 1
 ---
 

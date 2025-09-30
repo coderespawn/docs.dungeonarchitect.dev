@@ -1,5 +1,8 @@
 ---
 title: "Dungeon Architect for Unity"
+slug: /unity/unity-overview
+aliases:
+  - /unity
 sidebar_position: 1
 ---
 

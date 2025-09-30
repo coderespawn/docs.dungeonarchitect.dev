@@ -10,14 +10,15 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Dungeon Architect Documentation',
+  tagline: 'Choose your engine',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
+
 
   // Set the production url of your site here
   url: 'https://docs.dungeonarchitect.dev',
@@ -57,6 +58,24 @@ const config = {
           customCss: './src/css/custom.css',
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/unreal/unreal-overview',
+            from: ['/unreal', '/unreal/'],
+          },
+          {
+            to: '/unity/unity-overview',
+            from: ['/unity', '/unity/'],
+          },
+        ],
+      },
     ],
   ],
 
@@ -101,8 +120,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Unreal',
+                to: '/unreal/unreal-overview',
+              },
+              {
+                label: 'Unity',
+                to: '/unity/unity-overview',
               },
             ],
           },
@@ -142,4 +165,5 @@ const config = {
     }),
 };
 
-export default config;
+export default config
+

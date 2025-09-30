@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a76fa5f1-7e81-4675-9336-698a5961bc89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/advanced-dungeons/advdungeon-landscape-transformer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/advanced-dungeons/advdungeon-landscape-transformer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/advanced-dungeons/advdungeon-navigation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/advanced-dungeons/advdungeon-navigation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/advanced-theming/advtheme-spatial-constraints.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/advanced-theming/advtheme-spatial-constraints.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/pcg/pcg-section-overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/pcg/pcg-section-overview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/snap-flow/snapflow-sample-game.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/snap-flow/snapflow-sample-game.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,22 +31,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;docs&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/gamedev/docs/docs.dungeonarchitect.dev/docs/unity&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Ali Akbar\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "docs",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/gamedev/docs/docs.dungeonarchitect.dev/docs/unity",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.start.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\Ali Akbar\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\gamedev\docs\docs.dungeonarchitect.dev\docs\unity" />
@@ -60,7 +61,17 @@
       <recent name="C:\gamedev\docs\docs.dungeonarchitect.dev\docs\unreal" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -68,6 +79,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.build" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
