@@ -71,9 +71,9 @@ Go ahead and design the rest of the room any way you like
 
 > While designing the rooms, it is always a good idea to enable scale and location snaps in the editor
 (e.g. `50` or `100` unit location snap and `0.5` or `1.0` scale snap)
-> 
-> ![](../images/unreal/tutorial/J/J-18B.png)
-{style="note"}
+:::note
+![](../images/unreal/tutorial/J/J-18B.png)
+:::
 
 
 In this simple example, we want to have doors on all the 4 sides.   A gap of `400 wide / 500 high` was left out at the
@@ -87,9 +87,9 @@ Do this for all the four doors
 
 > You can always turn off the module bounds drawing (the red box) if it is getting in the way.
 Do this by selecting the *Module Bounds* actor and disable `Render Bounds`
-> 
-> ![](../images/unreal/tutorial/J/J-18.png)
-{style="note"}
+:::note
+![](../images/unreal/tutorial/J/J-18.png)
+:::
 
 Optionally, Drop in a few lights and switch to Lit mode
 
@@ -98,7 +98,8 @@ Optionally, Drop in a few lights and switch to Lit mode
 ![](../images/unreal/tutorial/J/J-15.jpg)
 
  
-> Disable dynamic shadows on most lights as it would affect performance
-{style="note"}
+:::note
+Disable dynamic shadows on most lights as it would affect performance
+:::
 
 In the next section, we'll create a `Connection` and add it near the door openings

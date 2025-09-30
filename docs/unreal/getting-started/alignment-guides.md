@@ -11,8 +11,9 @@ In that case, select the marker node, and it would show the alignment guides
 
 ![](../images/unreal/tutorial/B/B-42.jpg)
 
-> The alignment guides show up only for built-in marker nodes and not custom marker nodes
-{style="note"}
+:::note
+The alignment guides show up only for built-in marker nodes and not custom marker nodes
+:::
 
 Here, the ground assets have their pivot on the corner of the mesh, rather than in the center (Synty assets usually have this).   Now we can go ahead an adjust the transform of the ground mesh.
 In this example, it was corrected by setting the offset to (-200, -200, 0)

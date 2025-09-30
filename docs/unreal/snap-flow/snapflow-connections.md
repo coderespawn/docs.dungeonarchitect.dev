@@ -41,8 +41,9 @@ Drag and drop the connection asset on the door opening
 Make sure the alignment arrow is pointing outwards and is on the edge of the screen
 
 
-> It's good practice to design with the snap settings in the editor enabled
-{style="note"}
+:::note
+It's good practice to design with the snap settings in the editor enabled
+:::
 
 
 ![](../images/unreal/tutorial/D/D-proto_mesh3.png)

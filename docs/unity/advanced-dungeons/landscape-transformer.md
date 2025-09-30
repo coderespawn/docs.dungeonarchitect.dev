@@ -61,8 +61,9 @@ To add support for landscape transformations, perform the following,
 
 6. Assign the Elevation curves so we have a smooth transition from the existing terrain to the dungeon
    
-   > Unity will leave this blank by default and you need to assign it some value for it to work
-   {style="note"}
+   :::note
+   Unity will leave this blank by default and you need to assign it some value for it to work
+   :::
 
    ![](../images/unity/tutorial/13/ut-13-12.png)
 

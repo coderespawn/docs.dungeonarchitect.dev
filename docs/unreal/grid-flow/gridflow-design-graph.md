@@ -71,8 +71,9 @@ Keep hitting the `Build` button for different result
 
 > Click the image to play
 
-> If you do not see random results when you hit `Build`, make sure randomize is enabled.  Enable this by clicking the `Settings` button on the toolbar and choosing `Editor Settings`.  Then enabled `Randomize Seed`
-{style="note"}
+:::note
+If you do not see random results when you hit `Build`, make sure randomize is enabled.  Enable this by clicking the `Settings` button on the toolbar and choosing `Editor Settings`.  Then enabled `Randomize Seed`
+:::
 
 
 Select the ``Create Main Path`` node and inspect the properties
@@ -215,8 +216,9 @@ Add a new node ``Layout Graph > Create Path`` and set it up as follows:
 
 ![](../images/unreal/tutorial/E/E-42.png)
 
-> We've named this path ``key_room``. It will be referenced later on when creating the key locks
-{style="note"}
+:::note
+We've named this path ``key_room``. It will be referenced later on when creating the key locks
+:::
 
 
 ## Create Key-Lock (Main)
@@ -401,8 +403,9 @@ Create a new node ``Layout Graph > Spawn Items`` and set it up as follows:
 ![](../images/unreal/tutorial/E/E-63.png)
 
 
-> You'll need to create a marker named ``HealthPickup`` in your theme file and add your health pack actor. The sample theme doesn't contain this
-{style="note"}
+:::note
+You'll need to create a marker named ``HealthPickup`` in your theme file and add your health pack actor. The sample theme doesn't contain this
+:::
 
 
 ## Finalize Layout Graph
@@ -458,8 +461,9 @@ Depending on your art assets you might want your wall mesh to take up one full t
 * `Wall as Tile`: Use this option if you want your walls to take up one full tile
 * `Wall as Edge`: The walls are placed on the dge of the tiles and do not take up one full tile
 
-> If you face alignment issues with the wall, try setting this value to `Wall as Edge`
-{style="warning"}
+:::warning
+If you face alignment issues with the wall, try setting this value to `Wall as Edge`
+:::
 
 
 ### Chunk Size
@@ -537,8 +541,9 @@ Update the properties:
 
 We've specified the marker name as ``Elevation``.   If you place objects under the specified marker node in the theme editor, they will show up on these tiles at the given height.
 
-> The Min/Max height is logical and will be mulitplied by the dungeon config's Grid Size Y value.  If the GridSize is ``(400, 400, 200)`` in the Dungeon actor's config and the tile height happens to be ``2.5``, the actual placement will be on ``2.5 * 200 = 500 unreal units high``
-{style="note"}
+:::note
+The Min/Max height is logical and will be mulitplied by the dungeon config's Grid Size Y value.  If the GridSize is ``(400, 400, 200)`` in the Dungeon actor's config and the tile height happens to be ``2.5``, the actual placement will be on ``2.5 * 200 = 500 unreal units high``
+:::
 
 The sample theme file already contains a marker named 'Elevation' which shows the purple/blue tiles on the scene
 

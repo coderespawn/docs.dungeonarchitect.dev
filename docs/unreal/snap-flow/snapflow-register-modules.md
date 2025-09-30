@@ -15,5 +15,6 @@ Click the **Build Module Cache** button after you've modified the module databas
 
 ![](../images/unreal/tutorial/D/D-register_module_db_2.png)
 
-> Do not forget the above step. It is important
-{style="warning"}
+:::warning
+Do not forget the above step. It is important
+:::

@@ -152,10 +152,11 @@ Switch to unlit mode and in the level viewport, move to one of the connection op
 ![](../images/unreal/tutorial/J/J-37.jpg)
 
 
-> Make sure your snap settings are enabled, so that it is easier to align the objects
-> 
-> ![](../images/unreal/tutorial/J/J-18B.png)
-{style="note"}
+:::note
+Make sure your snap settings are enabled, so that it is easier to align the objects
+
+![](../images/unreal/tutorial/J/J-18B.png)
+:::
 
 Drag and drop the Connection asset on to the scene, somewhere near the door opening
 

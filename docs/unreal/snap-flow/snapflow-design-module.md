@@ -59,8 +59,9 @@ Do this by clicking the eye icon on the Levels window and make sure everything d
 Go ahead and design another module for our corridor.
 
 
-> Make sure you are editing the correct level file by double clicking on the level name in the Levels window (it should turn bold)
-{style="note"}
+:::note
+Make sure you are editing the correct level file by double clicking on the level name in the Levels window (it should turn bold)
+:::
 
 ![](../images/unreal/tutorial/D/D-proto_mesh9.png)
 

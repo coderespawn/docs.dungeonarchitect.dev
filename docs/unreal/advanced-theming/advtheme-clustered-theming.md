@@ -22,8 +22,9 @@ Once enabled, you need to define a list of theme sets you'd like to apply on the
 
 ![Assign Cluster Themes](../images/unreal/tutorial/G/G-cluster_theme_advanced_details.png)
 
-> When you use clustered themes, the **dungeon's default theme array list will be ignored** and the theme list defined in the cluster themes mapping would be used instead
-{style="warning"}
+:::warning
+When you use clustered themes, the **dungeon's default theme array list will be ignored** and the theme list defined in the cluster themes mapping would be used instead
+:::
 
 
 Currently, only the grid builder supports clustered theming

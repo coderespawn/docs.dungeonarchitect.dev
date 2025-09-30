@@ -42,8 +42,9 @@ of the modular art asset being used in the theme
 
 ![](../images/unreal/tutorial/B/B-04B.png)
 
-> If you change this, you'll need to set this in the level editor's dungeon actor properties as well while building the dungeon
-{style="note"}
+:::note
+If you change this, you'll need to set this in the level editor's dungeon actor properties as well while building the dungeon
+:::
 
 
 
@@ -51,8 +52,9 @@ of the modular art asset being used in the theme
 
 In the `Content Browser`, [enable plugin contents](create-first-dungeon.md#show-plugin-content), so we can use sample meshes that come with the plugin to design our theme
 
-> You can use any asset you like, but for this tutorial, lets stick with the sample assets
-{style="note"}
+:::note
+You can use any asset you like, but for this tutorial, lets stick with the sample assets
+:::
 	
 
    

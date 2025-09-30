@@ -41,5 +41,6 @@ We'll create a new module database asset and register the module that we created
 
    ![](../images/unity/tutorial/09/ut-09-04.png)
 
-   > This is an important step.  Do not forget to recompile the module database whenever you make any changes to it or the modules themselves
-   {style="warning"}
+   :::warning
+   This is an important step.  Do not forget to recompile the module database whenever you make any changes to it or the modules themselves
+   :::

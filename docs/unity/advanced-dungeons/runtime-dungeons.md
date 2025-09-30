@@ -78,9 +78,10 @@ When you hit play, this dungeon will be built (since we call `dungeon.Build()` i
 
 
 
-> If you build runtime dungeons, make sure the dungeon hasn't already been built in the editor.   Due to the way 
-> unity optimizes static game objects, the prefabs that were spawned in the editor won't be removed at runtime while building a new dungeon
-{style="warning"}
+:::warning
+If you build runtime dungeons, make sure the dungeon hasn't already been built in the editor.   Due to the way 
+unity optimizes static game objects, the prefabs that were spawned in the editor won't be removed at runtime while building a new dungeon
+:::
 
 ## Randomize Dungeon
 

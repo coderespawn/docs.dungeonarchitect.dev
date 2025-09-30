@@ -25,8 +25,9 @@ Select the *Start Rule* and on the RHS,  drop in a few Room nodes like this:
 ![](../images/unreal/tutorial/D/D-flow_4.png)
 
 
-> Cycles are not supported by the SnapMap builder
-{style="note"}
+:::note
+Cycles are not supported by the SnapMap builder
+:::
 
 Execute the rule and see how the final graph is generated. You do this by clicking the Run icon on the Execution graph panel
 

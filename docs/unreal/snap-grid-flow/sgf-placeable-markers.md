@@ -135,8 +135,9 @@ Save and close the module database editor
 
 ![](../images/unreal/tutorial/J/J-45.png)
 
-> This is an important step. Remember to rebuild the cache when needed
-{style="warning"}
+:::warning
+This is an important step. Remember to rebuild the cache when needed
+:::
 
 
 ## Update Theme File

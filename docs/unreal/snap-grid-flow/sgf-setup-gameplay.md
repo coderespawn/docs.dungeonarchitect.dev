@@ -40,8 +40,9 @@ in the spawn room, place the player in the spawn room and start the game
 
 ![](../images/unreal/tutorial/J/J-208.png)
 
-> Choose `GameMode` and not `GameModeBase`
-{style="warning"}
+:::warning
+Choose `GameMode` and not `GameModeBase`
+:::
 
 Open the blueprint 
 

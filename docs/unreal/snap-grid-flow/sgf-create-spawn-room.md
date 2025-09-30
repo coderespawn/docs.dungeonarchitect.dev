@@ -30,10 +30,11 @@ Open the editor and add a marker entry named `SpawnPoint` to the *Marker Names* 
 ![](../images/unreal/tutorial/J/J-190.png)
 
 
-> We set the marker name to `SpawnPoint` because this is what was specified in the flow graph's `Create Main Path` node
-> 
-> ![](../images/unreal/tutorial/J/J-189.png)
-{style="note"}
+:::note
+We set the marker name to `SpawnPoint` because this is what was specified in the flow graph's `Create Main Path` node
+
+![](../images/unreal/tutorial/J/J-189.png)
+:::
 
 Optionally specify a preview sprite for the spawn marker
 

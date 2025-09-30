@@ -149,8 +149,9 @@ Save the module database asset
 
 ![](../images/unity/tutorial/10/ut-10-26.png)
 
-> This is an important step. Remember to rebuild the cache when needed
-{style="warning"}
+:::warning
+This is an important step. Remember to rebuild the cache when needed
+:::
 
 ## Update Theme File
 

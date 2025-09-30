@@ -121,8 +121,9 @@ Add these key marker nodes that we've specified in the `Create Key/Lock` node
 
 ![](../images/unreal/tutorial/J/J-165.png)
 
-> The maker names are case-sensitive. So make sure you capitalize them correctly
-{style="note"}
+:::note
+The maker names are case-sensitive. So make sure you capitalize them correctly
+:::
 
 In the theme editor's content browser, navigate to 
 `DungeonArchitect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_SideScroller > Snap > Connection > Blueprints`
@@ -190,8 +191,9 @@ Locks are door blueprints with locking support (optionally with different visual
 
 We'll map these lock blueprints in the connection editor
 
-> Keys are mapped in the **Theme** editor. Locks are mapped in the **Connection** editor, since they deal with doors
-{style="note"}
+:::note
+Keys are mapped in the **Theme** editor. Locks are mapped in the **Connection** editor, since they deal with doors
+:::
 
 ### Open Connection Editor 
 

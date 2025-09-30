@@ -62,10 +62,11 @@ Your module prefab will now provide visual information that will help you design
 
 ![](../images/unity/tutorial/08/ut-08-12.png)
 
-> If you don't see the red lines, make sure the `Gizmos` button is pressed in the Scene View tab's toolbar
-> 
-> ![](../images/unity/tutorial/08/ut-08-19.jpg)
-{style="note"}
+:::note
+If you don't see the red lines, make sure the `Gizmos` button is pressed in the Scene View tab's toolbar
+
+![](../images/unity/tutorial/08/ut-08-19.jpg)
+:::
 
 The red wireframe indicates the bounds of your module.  You may fill this up in any way you like.
 
@@ -82,10 +83,11 @@ Go ahead and design the rest of the room in any way you like
 
 ![](../images/unity/tutorial/08/ut-08-14.jpg)
 
-> Make sure all your game objects are inside the module game object
-> 
-> ![](../images/unity/tutorial/08/ut-08-18.png)
-{style="note"} 
+:::note
+Make sure all your game objects are inside the module game object
+
+![](../images/unity/tutorial/08/ut-08-18.png)
+:::
 
 In this simple example, we want to have doors on all the 4 sides.   A gap of `4 wide / 5 high` was left out at the
 door openings.    Our door and wall assets will eventually be of this size to fill up the gap

@@ -84,8 +84,9 @@ Go ahead and hide the `Wall` game object. Dungeon Architect will take care of ma
 ![](../images/unity/tutorial/08/ut-08-33.jpg)
 
 
-> You may safely hide the main `Wall` or `Door` game objects but do not hide what is underneath it.   For example, do not hide the `Cube` or the `DoorLarge` game objects
-{style="warning"}
+:::warning
+You may safely hide the main `Wall` or `Door` game objects but do not hide what is underneath it.   For example, do not hide the `Cube` or the `DoorLarge` game objects
+:::
 
 The rules for aligning the door with the red line are a bit different 
 

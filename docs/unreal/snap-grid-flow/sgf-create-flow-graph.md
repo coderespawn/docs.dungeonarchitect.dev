@@ -32,9 +32,9 @@ Link the `Create Grid 3D` node to the `Result` node
 
 > You connect two nodes together by hovering the mouse over the border of the node. When the border turns yellow, drag
 out a link and connect it to the other node's border.  
-> 
-> Disconnect by holding the Alt key and left click on the border. This will break all outgoing links
-{style="note"}
+:::note
+Disconnect by holding the Alt key and left click on the border. This will break all outgoing links
+:::
 
 ## Create Grid
 
@@ -72,8 +72,9 @@ This will create a main path in the 3D grid
 
 ![](../images/unreal/tutorial/J/J-57.jpg)
 
-> Keep hitting the `Build` button to get different results
-{style="note"}
+:::note
+Keep hitting the `Build` button to get different results
+:::
 
 Select the `Create Main Path` node and inspect the properties in the Details tab
 
