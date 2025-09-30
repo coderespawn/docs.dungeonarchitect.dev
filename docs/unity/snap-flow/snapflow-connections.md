@@ -1,5 +1,6 @@
 ---
 title: Connections 
+sidebar_position: 4
 ---
 
 A Snap Connection tells DA how to stitch the room modules together.  They are usually the Door Entry / Exits.
@@ -63,4 +64,3 @@ Repeat by drag-dropping on all the door openings.   Do this for all the other mo
 ![](../images/unity/tutorial/05/ut-05-connection_12.jpg)
 
 Save/Update your module prefab
-

@@ -1,5 +1,6 @@
 ---
 title: Module Database
+sidebar_position: 4
 ---
 
 A Module Database is a registry of all the available modules that Dungeon Architect can use to stitch the dungeon
@@ -42,4 +43,3 @@ We'll create a new module database asset and register the module that we created
 
    > This is an important step.  Do not forget to recompile the module database whenever you make any changes to it or the modules themselves
    {style="warning"}
-

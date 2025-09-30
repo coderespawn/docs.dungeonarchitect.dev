@@ -1,5 +1,6 @@
 ---
 title: Build Dungeon
+sidebar_position: 6
 ---
 
 

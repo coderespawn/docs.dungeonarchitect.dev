@@ -1,5 +1,6 @@
 ---
 title: Setup Gameplay
+sidebar_position: 11
 ---
 
 We want to be able to open locked doors after we've picked up the keys.   For this to happen, we need to implement 
@@ -67,7 +68,3 @@ bool CanOpenDoor(Collider other)
     return false;
 }
 ```
-
-
-
-

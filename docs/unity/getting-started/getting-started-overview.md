@@ -1,4 +1,7 @@
-# Getting Started
+---
+title: "Getting Started"
+sidebar_position: 1
+---
 
 Welcome to Dungeon Architect, a powerful plugin for creating intricate and immersive dungeons in your games.
 

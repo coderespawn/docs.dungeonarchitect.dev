@@ -1,5 +1,6 @@
 ---
 title: Launch Pad Window
+sidebar_position: 4
 ---
 
 Use the Launch Pad window to setup new dungeon scenes, browse the samples, clone from templates and much more
@@ -115,11 +116,3 @@ Reach the developers through any one of these channels. Interact with the commun
 Dungeon Architect News!  Find out whats new since the last update
 
 ![](../images/unity/tutorial/03/ut-03-18.jpg)
-
-
-
-
-
-
-
-

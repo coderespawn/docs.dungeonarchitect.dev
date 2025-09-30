@@ -1,5 +1,6 @@
 ---
 title: Design a Grid Flow Graph 
+sidebar_position: 3
 ---
 
 
@@ -594,4 +595,3 @@ Connect it before the `Finalize Tilemap` node like below:
 Rebuild the dungeon in the scene view
 
 ![Optimize Tilemap Before / After](../images/unity/tutorial/04/ut-04-85.gif)
-  

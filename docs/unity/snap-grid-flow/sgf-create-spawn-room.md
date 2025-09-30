@@ -1,5 +1,6 @@
 ---
 title: Create Spawn Room
+sidebar_position: 9
 ---
 
 We're going to create a spawn room and place a marker there to spawn our player prefab

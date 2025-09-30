@@ -1,5 +1,6 @@
 ---
 title: Landscape Transformer
+sidebar_position: 4
 ---
 
 
@@ -123,4 +124,3 @@ Add a corridor texture
 ![](../images/unity/tutorial/13/ut-13-26.png)
 
 ![](../images/unity/tutorial/13/ut-13-27.jpg)
-

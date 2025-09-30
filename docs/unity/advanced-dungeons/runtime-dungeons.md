@@ -1,5 +1,6 @@
 ---
 title: Runtime Dungeons
+sidebar_position: 2
 ---
 
 ## Setup Runtime Build Script
@@ -109,7 +110,3 @@ public class MyDungeonBuilder : MonoBehaviour
     }
 }
 ```
-
-
-
-

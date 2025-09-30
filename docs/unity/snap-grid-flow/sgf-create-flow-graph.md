@@ -1,5 +1,6 @@
 ---
 title: Create Flow Graph
+sidebar_position: 5
 ---
 
 Design the layout of your procedural dungeons using the flow editor.   Then create an infinite number of 
@@ -418,4 +419,3 @@ Register them with the module database under the category `Room` and click `Comp
 Rebuild the flow graph
 
 ![](../images/unity/tutorial/09/ut-09-94.png)
-

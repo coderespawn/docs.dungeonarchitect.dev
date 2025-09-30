@@ -1,5 +1,6 @@
 ---
 title: Dungeon Listener
+sidebar_position: 3
 ---
 
 Hook on to the various dungeon events (like PreBuild, PostBuild events) using a custom script. 

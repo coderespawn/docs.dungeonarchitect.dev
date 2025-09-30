@@ -1,5 +1,6 @@
 ---
 title: Modules
+sidebar_position: 2
 ---
 
 A room is designed in a separate prefab, and it is called a `Module`

@@ -1,5 +1,6 @@
 ---
 title: Mini-Map
+sidebar_position: 5
 ---
 
 Display a 2D minimap with fog of war 

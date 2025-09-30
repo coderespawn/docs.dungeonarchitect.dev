@@ -1,6 +1,7 @@
 ---
 title: Create a Grid Flow Dungeon
 slug: /unity/grid-flow
+sidebar_position: 2
 ---
 
 
@@ -129,4 +130,3 @@ The scene view should zoom in on the treasure chest
 After you've built a dungeon in the editor (by hitting the build button on the top left), you can select each node and see how the dungeon layout was built, as shown in the lower preview panels
 
 ![Select a node to preview the build process](../images/unity/tutorial/04/ut-04-flow_editor_node_preview.gif)
-

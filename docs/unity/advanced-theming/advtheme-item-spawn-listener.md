@@ -1,5 +1,6 @@
 ---
 title: Item Spawn Listener
+sidebar_position: 4
 ---
 
 *Item Spawn Listeners* get notified of every game object that is spawned by the theme engine.    This allows you to modify the spawned objects and perform post processing on them (e.g. set metadata, add / remove extra components etc)

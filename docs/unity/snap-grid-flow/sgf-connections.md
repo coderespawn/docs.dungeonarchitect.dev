@@ -1,5 +1,6 @@
 ---
 title: Connections 
+sidebar_position: 3
 ---
 
 A `Connection` is a stitching point that the Snap framework uses to join rooms together.  A connection contains a reference to a Door asset and a Wall asset.  
@@ -199,4 +200,3 @@ The position and rotation might be off by a slight margin.   Select the snap con
 Repeat this for all the 4 door openings
 
 ![](../images/unity/tutorial/08/ut-08-59.jpg)
-

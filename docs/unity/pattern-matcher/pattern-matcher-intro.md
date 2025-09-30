@@ -1,4 +1,7 @@
-# Pattern Matcher - Basics
+---
+title: "Pattern Matcher - Basics"
+sidebar_position: 2
+---
 
 ## Introduction
 

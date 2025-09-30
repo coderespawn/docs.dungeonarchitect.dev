@@ -1,5 +1,6 @@
 ---
 title: Build the Dungeon
+sidebar_position: 7
 ---
 
 Assign the `Dungeon Flow` assets to the DungeonSnap game object
@@ -21,7 +22,3 @@ Location: `DungeonArchitect_Samples\DemoBuilder_Snap\Scenes\DemoScene`
 ![](../images/unity/tutorial/05/ut-05-sample_02.jpg)
 
 ![](../images/unity/tutorial/05/ut-05-sample_03.png)
-
-
-
-

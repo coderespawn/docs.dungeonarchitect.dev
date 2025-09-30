@@ -1,5 +1,6 @@
 ---
 title: Setup Key-Locks
+sidebar_position: 8
 ---
 
 In this section, we'll add a few key-locks to our dungeon using the flow framework
@@ -291,6 +292,4 @@ Yellow Key:
 > If your keys are shown half buried into the ground or below the ground, adjust their offset from the theme editor, or move the placeable marker game object up
 > 
 > ![](../images/unity/tutorial/11/ut-11-47.jpg)
-> 
-
-
+>

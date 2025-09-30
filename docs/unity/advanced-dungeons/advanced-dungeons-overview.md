@@ -1,5 +1,7 @@
-# Advanced Dungeons
-
+---
+title: "Advanced Dungeons"
+sidebar_position: 1
+---
 
 In this section we look at some of the more advanced concepts
 

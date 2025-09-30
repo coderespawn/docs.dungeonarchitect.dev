@@ -1,5 +1,6 @@
 ---
 title: Runtime Navigation
+sidebar_position: 5
 ---
 
 Dungeon Architect can generate dungeons at runtime so you get a new dungeon every time you play

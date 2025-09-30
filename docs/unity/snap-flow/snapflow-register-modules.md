@@ -1,5 +1,6 @@
 ---
 title: Register the Modules
+sidebar_position: 5
 ---
 
 
@@ -14,4 +15,3 @@ MiniBoss, MainBoss, SpawnRoom, Exit etc).
 
 You can have multiple module prefabs assigned to the same category.    These categories are used in the Dungeon Flow
 graph to design a procedural layout graph for your dungeon
-

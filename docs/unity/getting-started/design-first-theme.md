@@ -1,5 +1,6 @@
 ---
 title: Design your first Theme
+sidebar_position: 3
 ---
 
 A theme file is a mapping between **marker** names (like Walls, Ground, Door etc) and the meshes that you provide.    The prefabs you map here will be used to build your dungeon
@@ -280,10 +281,3 @@ In this section we learnt the following:
 * *Probablity* - Controls the percentage chance of a node being selected.  A value of 1 means 100% selection chance. A value of 0.25 means 25% selection chance
 * *Execution Order* - The theme engine executes all the nodes under a marker node from left to right. If it selects a certain node, it stops executing, unless the ``Consume on Attach`` flag is unchecked
 * *Marker Emitters* - You can create complex hierarchies with your own marker nodes, giving you more freedom to decorate your dungeons
- 
- 
-
-
-
-
-

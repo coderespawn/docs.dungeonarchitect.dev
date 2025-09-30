@@ -1,5 +1,6 @@
 ---
 title: Creating Module Prefabs
+sidebar_position: 3
 ---
 
 A module is a prebuilt prefab of a area (like room, corridor etc)
@@ -13,4 +14,3 @@ We've left holes at places where we want a possible door.   We'll place a specia
 Go ahead and create a few more module prefabs. We've created one for a corridor below
 
 ![](../images/unity/tutorial/05/ut-05-build_module_02.jpg)
-

@@ -1,5 +1,6 @@
 ---
 title: Scripting
+sidebar_position: 12
 ---
 
 Control the growth of your flow network using custom scripts. 
@@ -212,5 +213,3 @@ so it can pick one up from the list
 Assign to the `Create Main Path` node
 
 ![](../images/unity/tutorial/14/ut-14-20.png)
-
-

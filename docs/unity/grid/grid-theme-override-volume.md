@@ -1,5 +1,6 @@
 ---
 title: Theme Override Volume
+sidebar_position: 4
 ---
 
 Theme Override Volumes let you apply another theme on certain portions of your dungeons that are covered by this volume.  These are useful for adding variations to your dungeons.
@@ -29,5 +30,3 @@ Click ``Rebuild Dungeon``
 
 
 ![](../images/unity/tutorial/06/ut-06-10.jpg)
-   
-

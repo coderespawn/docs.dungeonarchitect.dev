@@ -1,5 +1,6 @@
 ---
 title: Paint Mode
+sidebar_position: 5
 ---
 
 
@@ -13,6 +14,3 @@ Select the DungeonGrid prefab and expand it.   Select the ``PaintMode`` game obj
 ``Left click`` and drag to draw dungeon cells.   ``Shift + Left click`` to delete cells.   ``Scroll wheel`` to move the cursor up/down
 
 ![](../images/unity/tutorial/06/ut-06-12.gif)
-   
-
-

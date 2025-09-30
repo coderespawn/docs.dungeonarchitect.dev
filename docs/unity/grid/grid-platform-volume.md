@@ -1,5 +1,6 @@
 ---
 title: Platform Volume
+sidebar_position: 3
 ---
 
 
@@ -19,4 +20,3 @@ Click the button ``Rebuild Dungeon``
 ![](../images/unity/tutorial/06/ut-06-05.gif)
 
 Move the `Platform Volume` and scale it to control the position and size of your room. You can have multiple platform volumes in the scene. Check the samples in the Launch Pad for more examples
-

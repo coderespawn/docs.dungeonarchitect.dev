@@ -1,5 +1,6 @@
 ---
 title: Design Snap Flow Graph
+sidebar_position: 6
 ---
 
 A Dungeon Flow graph allows you to control the layout of your dungeons using Graph Grammars.   You can generate interesting graphs with simple rules
@@ -69,5 +70,3 @@ Execute the grammar and you'll now see corridors between your rooms
 ![](../images/unity/tutorial/05/ut-05-flow_12.png)
 
 We will use this Dungeon Flow graph grammar to generate our snap dungeons
-
-

@@ -1,5 +1,6 @@
 ---
 title: Query Interface
+sidebar_position: 6
 ---
 
 > This feature is available from `Version 1.8.0` and above
@@ -102,6 +103,3 @@ public class GridFlowPathSelector_MainPath : SelectorRule
 ```
 
 Attach this script to the theme nodes you'd like to decorate
-
-
-

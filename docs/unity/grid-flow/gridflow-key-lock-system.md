@@ -1,5 +1,6 @@
 ---
 title: Key Lock System
+sidebar_position: 4
 ---
 
 The spawned Key and Lock game objects will have the following components attached to it by Dungeon Architect

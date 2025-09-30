@@ -1,5 +1,6 @@
 ---
 title: Transform Rule
+sidebar_position: 3
 ---
 
 Dungeon Architect lets you specify offsets to your visual nodes to move/scale/rotate them from their relative marker locations.

@@ -1,6 +1,7 @@
 ---
 title: Create your first Dungeon
 slug: /unity/getting-started
+sidebar_position: 2
 ---
 
 ## Install Dungeon Architect
@@ -109,5 +110,3 @@ Select the GridDungeon game object and click `Build Dungeon`
 All your dungeon game objects will be organized under the parent object
 
 ![](../images/unity/tutorial/01/ut-01-org10.png)
- 
-
