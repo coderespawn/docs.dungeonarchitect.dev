@@ -187,7 +187,7 @@ We'll setup these locked door prefab in the snap connection
 
 ### Open Snap Connection Prefab
 
-Open the `Snap Connection` prefab that we created in the [earlier](snapflow-connections.md) section
+Open the `Snap Connection` prefab that we created in the [earlier](../snap-flow/snapflow-connections.md) section
 
 ![](../images/unity/tutorial/11/ut-11-27.png)
 

@@ -3,7 +3,7 @@ title: "Properties"
 sidebar_position: 2
 ---
 
-Continuing on the map created in the section [Design your First Theme](design-first-theme.md), open the map and select the `Dungeon` actor and inspect the properties
+Continuing on the map created in the section [Design your First Theme](../getting-started/design-first-theme.md), open the map and select the `Dungeon` actor and inspect the properties
 
 ![](../images/unreal/tutorial/F/F-02.png)
 

@@ -1,5 +1,5 @@
 ---
-title: "Dungeon Architect for Unreal Engine"
+title: "Dungeon Architect - Unreal"
 sidebar_position: 1
 ---
 

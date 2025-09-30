@@ -9,8 +9,9 @@ In this tutorial, we'll be creating this:
 
 This tutorial build on these two existing tutorials:
 
-* [](pcg-framework-overview.md)
-* [](snapflow-custom-module-bounds.md)
+
+* [PCG Framework Overview](pcg-framework-overview.md)
+* [Custom Snap Bound Shapes](../snap-flow/snapflow-custom-module-bounds.md)
 
 Please go through those first, if you haven't done so already
 

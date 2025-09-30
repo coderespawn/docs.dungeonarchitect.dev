@@ -7,6 +7,6 @@ The `Grid Builder` generates a dungeon by scattering rooms across the map and co
 
 ![](../images/unreal/tutorial/F/F-01.jpg)
 
-We've used this dungeon builder in the previous section [Create your First Dungeon](getting-started-overview.md) and [Design your First Theme](design-first-theme.md)
+We've used this dungeon builder in the previous section [Create your First Dungeon](../getting-started/getting-started-overview.md) and [Design your First Theme](../getting-started/design-first-theme.md)
 
 In the following sections, we'll explore more on this builder

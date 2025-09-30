@@ -3,7 +3,7 @@ title: Properties
 sidebar_position: 2
 ---
 
-Continuing on the scene created in the section [Design your first Theme](design-first-theme.md), open the scene and select the ``DungeonGrid`` game object and inspect the properties
+Continuing on the scene created in the section [Design your first Theme](../getting-started/design-first-theme.md), open the scene and select the ``DungeonGrid`` game object and inspect the properties
 
 ![](../images/unity/tutorial/06/ut-06-01.png)
 
