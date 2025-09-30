@@ -1,4 +1,7 @@
-# Grid Flow Editor
+---
+title: "Grid Flow Editor"
+sidebar_position: 3
+---
 
 Let's open the GridFlow asset in the editor:
 
@@ -59,4 +62,3 @@ The result of the layout graph is eventually transferred over to a tilemap. The 
 The 3D representation of the final Dungeon
 
 ![](../images/unreal/tutorial/E/E-14D.jpg)
-

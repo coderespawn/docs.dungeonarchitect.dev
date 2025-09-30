@@ -1,4 +1,7 @@
-# Custom Snap Bound Shapes
+---
+title: "Custom Snap Bound Shapes"
+sidebar_position: 10
+---
 
 Define snap module bounds using custom shapes. This opens up lots of possibilities for snap map based dungeons. 
 In the previous examples, the doors were aligned at the edges of the axis-aligned bounding box. Now you can place the

@@ -1,4 +1,7 @@
-# Design Snap Flow Graph
+---
+title: "Design Snap Flow Graph"
+sidebar_position: 7
+---
 
 A Dungeon Flow graph allows you to control the layout of your dungeons using Graph Grammars.  
 You can generate interesting graphs with simple rules

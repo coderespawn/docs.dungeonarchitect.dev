@@ -1,4 +1,7 @@
-# Spawn Logic
+---
+title: "Spawn Logic"
+sidebar_position: 3
+---
 
 Spawn Logics are blueprints that are attached to visual nodes and are executed whenever that visual item (mesh, actor, particle system, light etc) is spawned into the scene
 
@@ -35,4 +38,3 @@ Get the reference of the spawn actor and cast it to the type you are expecting. 
 Another blueprint that was attached to a point light.  Since we expect a point light, we cast to the correct type and change the color
 
 ![Spawn Logic](../images/unreal/tutorial/G/G-spawn_logic_override3.png)
-

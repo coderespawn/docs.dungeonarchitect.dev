@@ -1,4 +1,7 @@
-# Dungeon Architect for Unreal Engine 
+---
+title: "Dungeon Architect for Unreal Engine"
+sidebar_position: 1
+---
 
 Dungeon Architect is a powerful procedural generation tool designed to assist game developers in creating vast, 
 intricate dungeons and environments. 

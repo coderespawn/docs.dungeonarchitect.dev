@@ -1,4 +1,7 @@
-# Properties
+---
+title: "Properties"
+sidebar_position: 2
+---
 
 Continuing on the map created in the section [Design your First Theme](design-first-theme.md), open the map and select the `Dungeon` actor and inspect the properties
 
@@ -14,5 +17,3 @@ Continuing on the map created in the section [Design your First Theme](design-fi
 * A new Stair will not be created between two tiles if there's another stair nearby that if traversed, takes N steps to reach this cell. This value is controlled by ``Stair Connection Tollerance``.  Bump this number up if you want fewer stairs
 * Maximum allowed stair: Determine how high a stair tile can get.  If set to one, the builder will create stairs that go only one level up
 * Both Rooms and Corridors have a ``Ground`` marker.   Rooms are surrounded by ``Wall`` markers while the corridors are surrounded by ``Fence`` marker
-
-

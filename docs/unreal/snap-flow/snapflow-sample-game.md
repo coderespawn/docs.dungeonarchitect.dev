@@ -1,4 +1,7 @@
-# Sample Game
+---
+title: "Sample Game"
+sidebar_position: 13
+---
 
 Explore the sample game which contains many more advanced features (minimaps, key / lock demo, NPCs, navigation etc)
 
@@ -18,5 +21,3 @@ Explore the sample game which contains many more advanced features (minimaps, ke
 ### Multi-Level Dungeons
 
 <video src="https://youtube.com/watch?v=9Crl9tGkHXA" />
-
-

@@ -1,4 +1,7 @@
-# Create your first Dungeon
+---
+title: "Create your first Dungeon"
+sidebar_position: 2
+---
 
 ## Setup Dungeon Actor
 
@@ -70,8 +73,3 @@ The ``Randomize Seed`` button is a helper function which simply changes the ``Se
 When you build a dungeon, all the spawned dungeon actors are placed under a folder named after the dungeon actor's label
 
 ![](../images/unreal/tutorial/A/A-10.png)
-
-
- 
-
-

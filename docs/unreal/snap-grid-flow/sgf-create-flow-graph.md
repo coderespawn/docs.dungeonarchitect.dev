@@ -1,4 +1,7 @@
-# Create Flow Graph
+---
+title: "Create Flow Graph"
+sidebar_position: 5
+---
 
 Design the layout of your procedural dungeons using the flow editor.   Then create an infinite number of 
 procedural dungeons that follow this layout rule.

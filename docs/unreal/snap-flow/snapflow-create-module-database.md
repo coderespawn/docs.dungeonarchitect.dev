@@ -1,4 +1,7 @@
-# Create a Module Database
+---
+title: "Create a Module Database"
+sidebar_position: 3
+---
 
 Create a new module database in the Content Browser
 

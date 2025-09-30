@@ -1,4 +1,7 @@
-# Grid Flow Builder
+---
+title: "Grid Flow Builder"
+sidebar_position: 1
+---
 
 Design procedural level layouts and item placements using the powerful Flow framework and its accompanying toolset
 

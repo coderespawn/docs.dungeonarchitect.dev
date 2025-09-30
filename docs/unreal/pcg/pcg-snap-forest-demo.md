@@ -1,4 +1,7 @@
-# Snap Forest PCG Demo
+---
+title: "Snap Forest PCG Demo"
+sidebar_position: 3
+---
 
 In this tutorial, we'll be creating this:
 

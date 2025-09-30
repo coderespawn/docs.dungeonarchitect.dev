@@ -1,6 +1,9 @@
-<show-structure />
+---
+title: "Canvas Settings"
+sidebar_position: 6
+---
 
-# Canvas Settings
+<show-structure />
 
 ## Preview Panel
 
@@ -74,4 +77,3 @@ Animate the curl noise by specifying time (instead of 0) in the `Append Vector` 
 
 
 [M_NoisyCanvasFogOfWar.uasset](https://forums.dungeonarchitect.dev/uploads/short-url/iPO6GXGhIPKEPnHG36EOPLPGkeo.uasset) (25.1 KB)
-

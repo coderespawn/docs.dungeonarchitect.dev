@@ -1,4 +1,7 @@
-# SGF Connections
+---
+title: "SGF Connections"
+sidebar_position: 3
+---
 
 A `Connection` is a stitching point that the Snap framework uses to join rooms together
 

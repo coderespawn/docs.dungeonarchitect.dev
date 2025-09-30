@@ -1,6 +1,9 @@
-<show-structure />
+---
+title: "Dungeon Build System"
+sidebar_position: 1
+---
 
-# Dungeon Build System
+<show-structure />
 
 Build your dungeons at runtime using the automated build system
 
@@ -119,5 +122,3 @@ Override the function `FindPlayerStart`
 ![BS10.png](../images/BS10.png)
 
 ![BS11.png](../images/BS11.png)
-
-

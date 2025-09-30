@@ -1,4 +1,7 @@
-# Pattern Matcher - Getting Started
+---
+title: "Pattern Matcher - Getting Started"
+sidebar_position: 2
+---
 
 Capture patterns in your dungeon layout and add or remove markers around this pattern.    This is a powerful system for 
 decorating your themes, as you are no longer restricted to a single tile level decoration and can decorate across 

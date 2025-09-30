@@ -1,4 +1,7 @@
-# Key-Lock System
+---
+title: "Key-Lock System"
+sidebar_position: 5
+---
 
 ## Setup
 

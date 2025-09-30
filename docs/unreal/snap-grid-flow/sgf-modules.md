@@ -1,4 +1,7 @@
-# Modules
+---
+title: "Modules"
+sidebar_position: 2
+---
 
 A room is designed in a separate map file, and it is called a `Module`
 

@@ -1,4 +1,7 @@
-# Design a Grid Flow Graph
+---
+title: "Design a Grid Flow Graph"
+sidebar_position: 4
+---
 
 In the previous section, we used an existing Grid Flow graph from the samples folder. In this section, we'll design one ourselves.
 

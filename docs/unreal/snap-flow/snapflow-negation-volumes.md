@@ -1,4 +1,7 @@
-# Negation Volumes
+---
+title: "Negation Volumes"
+sidebar_position: 12
+---
 
 You can control where your dungeon grows by using Negation Volumes.  This allows (or disallows) the 
 growth of a dungeon at certain places.  Use this to make sure your dungeon fits in a certain play area, 
@@ -25,4 +28,3 @@ If the flag ``Reversed`` is checked in the properties, then the dungeon will be 
 Check the samples in the Launch Pad window
 
 ![](../images/unreal/tutorial/D/D-new_samples_snap.jpg)
-

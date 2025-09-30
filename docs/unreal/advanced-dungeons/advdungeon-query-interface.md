@@ -1,5 +1,7 @@
-# Query Interface
-
+---
+title: "Query Interface"
+sidebar_position: 6
+---
 
 The query interface has various helper functions to query the structure of the dungeon.    You can use the query interface in your selector / transform logics or marker emitters for more control
 
@@ -163,5 +165,3 @@ This function is useful if you don't want to place blocking items near doors / s
 ![Query System](../images/unreal/tutorial/H/H-query_grid_near_marker_1.png)
 
 ![Query System](../images/unreal/tutorial/H/H-query_grid_near_marker_2.png)
-
-

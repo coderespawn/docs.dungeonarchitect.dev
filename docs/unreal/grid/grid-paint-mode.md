@@ -1,4 +1,7 @@
-# Paint Mode
+---
+title: "Paint Mode"
+sidebar_position: 5
+---
 
 You can paint your own dungeon layout on top of the procedural dungeon
 
@@ -11,7 +14,3 @@ Select the Dungeon Edit Mode from the Modes panel.  This will allow you to use t
 ![](../images/unreal/tutorial/F/F-13.gif)
 
 > Click the image to play
-
-
-
-

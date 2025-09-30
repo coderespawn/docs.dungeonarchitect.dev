@@ -1,4 +1,7 @@
-# Create a Grid Flow Dungeon
+---
+title: "Create a Grid Flow Dungeon"
+sidebar_position: 2
+---
 
 The Grid Flow Builder offers a rich set of tools to control the flow of your dungeons and item placement
 
@@ -58,4 +61,3 @@ Select the Dungeon actor and click `Build Dungeon` button from the Details panel
 ![GridFlow dungeon built using the sample theme](../images/unreal/tutorial/E/E-09.jpg)
 
 ![GridFlow dungeons support key-locks](../images/unreal/tutorial/E/E-08.jpg)
-   

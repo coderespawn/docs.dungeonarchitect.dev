@@ -1,4 +1,7 @@
-# Platform Volume
+---
+title: "Platform Volume"
+sidebar_position: 3
+---
 
 Platform Volumes let you control the placement of the rooms or corridors.   You do this dropping in a ``Grid Dungeon Platform Volume`` on to the scene and resizing  / positioning it on the scene and you room will be built around it.
 

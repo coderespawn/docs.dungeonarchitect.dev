@@ -1,4 +1,7 @@
-# Placeable Markers
+---
+title: "Placeable Markers"
+sidebar_position: 7
+---
 
 In this section, we'll spawn items like NPCs, power ups etc in our dungeon.
 

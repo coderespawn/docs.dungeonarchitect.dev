@@ -1,4 +1,7 @@
-# Level Streaming
+---
+title: "Level Streaming"
+sidebar_position: 9
+---
 
 The snap builder supports Level Streaming. It would Stream in and out the module level files, depending on the layout graph and customizable visiblity depth
 
@@ -17,5 +20,3 @@ Build a new Dungeon at runtime on BeginPlay of the Level's blueprint
 Destroy your existing dungeon. Hit play and the nearby modules will be streamed in / out as you move through dungeons.  This helps with maintaining a smooth framerate with fully dynamic lighting
 
 ![](../images/unreal/tutorial/D/D-finalize_6.png)
-
-

@@ -1,4 +1,7 @@
-# Snap Flow Builder
+---
+title: "Snap Flow Builder"
+sidebar_position: 1
+---
 
 This system lets you stitch together pre-built rooms based on a procedural graph.
 

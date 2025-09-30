@@ -1,4 +1,7 @@
-# Spatial Constraints
+---
+title: "Spatial Constraints"
+sidebar_position: 6
+---
 
 Spatial constraints are great of checking the state of nearby tiles and using it as a condition to place items on the scene
 

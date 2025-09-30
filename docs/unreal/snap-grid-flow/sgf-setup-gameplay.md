@@ -1,4 +1,7 @@
-# Setup Gameplay
+---
+title: "Setup Gameplay"
+sidebar_position: 12
+---
 
 We'll create a new map and set everything up, so we can play in our dungeon
 
@@ -251,7 +254,3 @@ Navigate to the following folder and check how the sample keys and locks are imp
 `DungeonArchitect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_SideScroller > Snap > Connection > Blueprints > BP_SGF_Key_Base`
 
 ![](../images/unreal/tutorial/J/J-238.jpg)
-
-
-
-

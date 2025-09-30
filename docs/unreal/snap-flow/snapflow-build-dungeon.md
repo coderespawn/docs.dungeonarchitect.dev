@@ -1,4 +1,7 @@
-# Build the Dungeon
+---
+title: "Build the Dungeon"
+sidebar_position: 8
+---
 
 Assign the **`Module Database`** and **`Dungeon Flow Graph`** assets to the Dungeon Actor
 

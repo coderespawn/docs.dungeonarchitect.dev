@@ -1,6 +1,10 @@
+---
+title: "Canvas Minimaps"
+sidebar_position: 1
+---
+
 <show-structure />
 
-# Canvas Minimaps
 Design beautiful minimaps for your levels using a Dungeon Canvas
 
 ![image|500x500](../images/unreal/tutorial/Canvas/ea209d236c37b311a1399f510917942de933635d.jpeg)

@@ -1,6 +1,9 @@
-<show-structure />
+---
+title: "Canvas UI Widget"
+sidebar_position: 2
+---
 
-# Canvas UI Widget
+<show-structure />
 
 We need to show the minimap in your screen. Create a new UMG User widget (or open an existing one) and drag drop the `Dungeon Canvas Widget` on to the screen
 
@@ -51,4 +54,3 @@ With and without Fog of War enabled:
 ![image|269x500](../images/unreal/tutorial/Canvas/6b4535380121062b060fe00accff9ea4e29457b0.jpeg)
 
 > Note: You can configure NPC icons to show up only on the visible (bright) areas
-

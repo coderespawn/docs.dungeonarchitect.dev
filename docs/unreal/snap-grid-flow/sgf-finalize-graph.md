@@ -1,4 +1,7 @@
-# Finalize Graph
+---
+title: "Finalize Graph"
+sidebar_position: 10
+---
 
 The last node of your flow graph should always be the `Finalize Graph` node.  This node does the following:
 * Strategically promote some doors to `one-way` doors.  This is done to keep the player from bypassing locked doors
@@ -46,10 +49,3 @@ with your own design
 In the next section, we'll look at how to set up gameplay where we will build a random dungeon at runtime, 
 move the player to the spawn room and have the player character (first person, third person etc) move around the map,
 pick up keys, open locked doors and more
-
-
-
-
-
-
-

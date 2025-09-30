@@ -1,4 +1,7 @@
-# PCG Framework Overview
+---
+title: "PCG Framework Overview"
+sidebar_position: 2
+---
 
 In this tutorial, we'll have a look at the PCG framework and how it's used in the [Electric Dreams](https://www.unrealengine.com/en-US/electric-dreams-environment) sample
 
@@ -266,4 +269,3 @@ Select the forest blueprint:
 * Click Generate
 
 ![image|690x367](../images/unreal/tutorial/PCG/01/PCG-01-375099fd2ae9139bcb474c0521cd28342a99719f.jpeg)
-

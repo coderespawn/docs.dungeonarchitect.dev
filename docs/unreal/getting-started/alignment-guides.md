@@ -1,4 +1,7 @@
-# Alignment Guides
+---
+title: "Alignment Guides"
+sidebar_position: 4
+---
 
 Dungeon Architect can adapt to any modular asset regardless of the mesh pivot position.  If the pivots are off, you can always adjust them from the Offset section of the node's properties
 
@@ -31,4 +34,3 @@ It is important to first align the ground mesh and then use that as a reference 
 ![](../images/unreal/tutorial/B/B-47.jpg)
 
 ![](../images/unreal/tutorial/B/B-48.jpg)
-

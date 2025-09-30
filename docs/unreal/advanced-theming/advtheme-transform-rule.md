@@ -1,4 +1,7 @@
-# Transform Rule
+---
+title: "Transform Rule"
+sidebar_position: 4
+---
 
 Dungeon Architect lets you specify offsets to your visual nodes to move/scale/rotate them from their relative marker locations.
 
@@ -63,4 +66,3 @@ In this example a small random rotation is applied to orange ground tiles.  Usef
 
 
 ![Transformation Rule Blueprint](../images/unreal/tutorial/G/G-transform_rule_eg3_1.png)
-

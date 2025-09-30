@@ -1,4 +1,7 @@
-# Module Database
+---
+title: "Module Database"
+sidebar_position: 4
+---
 
 A Module Database is a registry of all the available modules that Dungeon Architect can use to stitch the dungeon
 
@@ -51,5 +54,3 @@ This is an important step, and you need to remember to rebuild the cache wheneve
 If you move / add / remove a connection in a module, come back here and rebuild the cache
 
 Click the `Build Module Cache` button and save the asset
-
-

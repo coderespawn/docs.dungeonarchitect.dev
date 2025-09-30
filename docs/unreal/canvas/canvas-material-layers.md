@@ -1,6 +1,9 @@
-<show-structure />
+---
+title: "Canvas Material Layers"
+sidebar_position: 5
+---
 
-# Canvas Material Layers
+<show-structure />
 
 ## Edit Material layers
 

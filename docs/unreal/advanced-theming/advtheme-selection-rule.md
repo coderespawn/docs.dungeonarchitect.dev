@@ -1,4 +1,7 @@
-# Selection Rule
+---
+title: "Selection Rule"
+sidebar_position: 5
+---
 
 A selection rule is a blueprint class (or C++ class) that is used to decide if the current node is to be attached to the scene.  This rule replaces the default **Probability** property that is used for randomly deciding if visual node needs spawning based on a probability.
 
@@ -71,4 +74,3 @@ Ignore nodes that are near other markers.  This is very useful if you don't want
 ![Query System](../images/unreal/tutorial/G/G-query_grid_near_marker_1.png)
 
 ![Query System](../images/unreal/tutorial/G/G-query_grid_near_marker_2.jpg)
-

@@ -1,4 +1,7 @@
-# Setup Key-Locks
+---
+title: "Setup Key-Locks"
+sidebar_position: 8
+---
 
 In this section, we'll add a few key-locks to our dungeon using the flow framework
 
@@ -266,6 +269,3 @@ Open the scene where we previously [set up](sgf-build-dungeon.md) our dungeon.  
 ![](../images/unreal/tutorial/J/J-186.jpg)
 
 ![](../images/unreal/tutorial/J/J-185.jpg)
-
-
-

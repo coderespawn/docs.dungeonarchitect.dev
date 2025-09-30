@@ -1,4 +1,7 @@
-# Marker Emitters
+---
+title: "Marker Emitters"
+sidebar_position: 5
+---
 
 Marker Emitters are blueprint scripts (or C++) that lets you emit your own markers anywhere in the map
 
@@ -106,5 +109,3 @@ Heres another example of a curved roof created over a room using marker emitters
 ![](../images/unreal/tutorial/H/H-marker_emitter_eg3_2.jpg)
 
 ![](../images/unreal/tutorial/H/H-marker_emitter_eg3_3.jpg)
-
-

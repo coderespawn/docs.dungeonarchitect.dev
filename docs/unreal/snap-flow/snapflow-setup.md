@@ -1,4 +1,7 @@
-# Setup
+---
+title: "Setup"
+sidebar_position: 2
+---
 
 The Snap Builder generates a dungeon by stitching together pre-built rooms. These rooms are designed in individual level maps.   The rules for stitching them is controlled by Graph Grammars
 

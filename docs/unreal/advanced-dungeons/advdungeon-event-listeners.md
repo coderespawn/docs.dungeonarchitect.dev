@@ -1,5 +1,7 @@
-# Event Listeners
-
+---
+title: "Event Listeners"
+sidebar_position: 2
+---
 
 Event listeners are blueprints that get notified on various dungeon events. These are great for pre / post initializations
 
@@ -59,4 +61,3 @@ This is called right before the dungeon is about to be destroyed
 ### On Dungeon Destroyed
 
 This is called after the dungeon is fully destroyed
-

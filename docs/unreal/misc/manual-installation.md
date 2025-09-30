@@ -1,4 +1,7 @@
-# Manual Installation
+---
+title: "Manual Installation"
+sidebar_position: 3
+---
 
 If you have purchased your copy of Dungeon Architect from Code Respawn, you can download the latest build at any time and install it into your project with the following steps
 

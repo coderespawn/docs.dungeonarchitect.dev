@@ -1,4 +1,7 @@
-# Design your Modules
+---
+title: "Design your Modules"
+sidebar_position: 4
+---
 
 A module is a pre-designed room. You design a module in separate level files and you specify connection 
 points (usually doors) that should be used for stitching the doors together.

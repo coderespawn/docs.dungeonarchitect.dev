@@ -1,4 +1,7 @@
-# Setup GridFlow Gameplay
+---
+title: "Setup GridFlow Gameplay"
+sidebar_position: 7
+---
 
 We'll clone an GridFlow sample scene and setup gameplay on it from scratch
 

@@ -1,4 +1,7 @@
-# Build Dungeon
+---
+title: "Build Dungeon"
+sidebar_position: 6
+---
 
 It's time to use everything we've created to build a dungeon
 

@@ -1,4 +1,7 @@
-# Mini-Map
+---
+title: "Mini-Map"
+sidebar_position: 6
+---
 
 ## Setup
 

@@ -1,4 +1,7 @@
-# Landscape Transformer
+---
+title: "Landscape Transformer"
+sidebar_position: 7
+---
 
 Using the Landscape Transformer, you can modify a landscape's height and weights (textures) around the dungeon's layout
 
@@ -25,8 +28,3 @@ To find where you layer info is, Navigate to the Landscape tab > Paint section. 
 
 
 ![Landscape Transformer](../images/unreal/tutorial/H/H-landscape_transformer_layer.png)
-
-
-
-
-

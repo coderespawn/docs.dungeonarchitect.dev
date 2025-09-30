@@ -1,4 +1,7 @@
-# Clustered Theming
+---
+title: "Clustered Theming"
+sidebar_position: 7
+---
 
 Clustered theming allows you to automatically apply different themes to various parts (clusters) of your dungeons. This helps in adding variation to your levels and break monotony
 

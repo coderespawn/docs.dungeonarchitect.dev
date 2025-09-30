@@ -1,4 +1,7 @@
-# Connections
+---
+title: "Connections"
+sidebar_position: 5
+---
 
 A Snap Connection tells DA how to stitch the room modules together.  They are usually the Door Entry / Exits. 
 First create a Connection asset and specify the art asset to use for doors and walls.

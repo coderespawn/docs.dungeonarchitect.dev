@@ -1,4 +1,7 @@
-# Theme Override Volume
+---
+title: "Theme Override Volume"
+sidebar_position: 4
+---
 
 Theme Override Volumes let you apply another theme on certain portions of your dungeons that are covered by this volume.  These are useful for adding variations to your dungeons.
 
@@ -24,5 +27,3 @@ Assign a theme you'd like to apply within these bounds.  Then hit ``Rebuild Dung
 ![Before / After theme override](../images/unreal/tutorial/F/F-11.gif)
 
 > Click the image to play
-
-

@@ -1,6 +1,9 @@
-<show-structure />
+---
+title: "Canvas Player Setup"
+sidebar_position: 3
+---
 
-# Canvas Player Setup
+<show-structure />
 
 You'll need a custom player controller to do two things:
 * Show your UI with the minimap widget

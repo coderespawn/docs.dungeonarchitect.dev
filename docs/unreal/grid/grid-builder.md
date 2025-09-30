@@ -1,4 +1,7 @@
-# Grid Builder
+---
+title: "Grid Builder"
+sidebar_position: 1
+---
 
 The `Grid Builder` generates a dungeon by scattering rooms across the map and connecting them with corridors.  This builder supports height variations (stairs)
 

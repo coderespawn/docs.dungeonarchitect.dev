@@ -1,4 +1,7 @@
-# Register the Modules
+---
+title: "Register the Modules"
+sidebar_position: 6
+---
 
 It's time to register our modules in the Module Database.
 

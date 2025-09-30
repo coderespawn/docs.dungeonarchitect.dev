@@ -1,4 +1,7 @@
-# Navigation
+---
+title: "Navigation"
+sidebar_position: 3
+---
 
 Unreal Engine supports runtime navigation generation.   However, a flag needs to be set in the projects setting.
 
@@ -22,5 +25,3 @@ If you want to use runtime navigation with a builder that supports level streami
 ![Runtime Navigation Mesh Generation](../images/unreal/tutorial/H/H-snap_nav_02.png)
 
 ![Runtime Navigation Mesh Generation](../images/unreal/tutorial/H/H-snap_nav_01.png)
-
-

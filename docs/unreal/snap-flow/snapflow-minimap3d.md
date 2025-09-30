@@ -1,4 +1,7 @@
-# Snap Minimap 3D
+---
+title: "Snap Minimap 3D"
+sidebar_position: 11
+---
 
 ![image|690x454](../images/unreal/tutorial/D/1/D-1-8f0278d9a088df6a58af8ae227e906b4b2a04776.jpeg)
 

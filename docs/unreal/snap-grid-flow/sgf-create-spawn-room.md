@@ -1,4 +1,7 @@
-# Create Spawn Room
+---
+title: "Create Spawn Room"
+sidebar_position: 9
+---
 
 We're going to create a spawn room and place a marker there to spawn the `PlayerStart` actor
 
@@ -117,5 +120,3 @@ Open the scene where we previously [set up](sgf-build-dungeon.md) our dungeon.  
 You should see the spawn room, and a `PlayerStart` actor spawned at the correct place
 
 ![](../images/unreal/tutorial/J/J-200.jpg)
-
-

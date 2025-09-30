@@ -1,4 +1,7 @@
-# Snap Grid Flow Builder
+---
+title: "Snap Grid Flow Builder"
+sidebar_position: 1
+---
 
 The **Snap Grid Flow Builder** allows you to stitch snap modules using a flow graph.  You can create many types of 
 levels with this builder. Some examples include:
@@ -44,4 +47,3 @@ to grow the graph. So you are free to leave out the doors that you don't want wh
 
 This means, you don't need to leave space for doors on each side of the room. You can safely 
 wall them off with your art assets, and it won't grow from there
-
