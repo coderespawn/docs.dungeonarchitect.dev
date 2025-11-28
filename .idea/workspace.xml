@@ -57,7 +57,7 @@
       <recent name="C:\gamedev\docs\docs.dungeonarchitect.dev\docs\unreal" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -102,7 +102,7 @@
       <workItem from="1759228562813" duration="1829000" />
       <workItem from="1759231417798" duration="29000" />
       <workItem from="1763186617457" duration="2014000" />
-      <workItem from="1764343785512" duration="1635000" />
+      <workItem from="1764343785512" duration="3157000" />
     </task>
     <servers />
   </component>
