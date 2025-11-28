@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a76fa5f1-7e81-4675-9336-698a5961bc89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +102,7 @@
       <workItem from="1759228562813" duration="1829000" />
       <workItem from="1759231417798" duration="29000" />
       <workItem from="1763186617457" duration="2014000" />
+      <workItem from="1764343785512" duration="996000" />
     </task>
     <servers />
   </component>
