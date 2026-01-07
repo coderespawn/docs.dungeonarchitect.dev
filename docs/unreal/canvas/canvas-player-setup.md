@@ -11,15 +11,15 @@ You'll need a custom player controller to do two things:
 
 > Note: Check this sample player controller for reference: `DungeonArchitect Content > /Showcase/Legacy/Samples/DA_Canvas_Demo/Common/Blueprints/PlayerControllers/PC_CanvasDemo_Base`
 
-## Show UI
+## Add Components
 
-Open your player controller and create your UI widget and add to viewport
+### Dungeon Actor
 
-![image|690x289](../images/unreal/tutorial/Canvas/583839d36fe04688000534c8bbaaa9baba664ee0.png)
+Select the Dungeon Actor in the scene and add the `DungeonCanvas` component to it
 
-This will make the UI show up when your game starts. The Dungeon Canvas widget you placed in your UI will auto register itself when it constructs. So there's no more setup required here on the UI side
+![C002B.png](../images/unreal/tutorial/Canvas/C002B.png)
 
-## Add Canvas Component
+### Player Controller
 
 Open up your Player Controller blueprint and add the `DungeonCanvasPlayerController` component to it
 
@@ -36,3 +36,12 @@ No more setup is required here.  You may select the component and modify the fog
 ![C002.png](../images/unreal/tutorial/Canvas/C002.png)
 
 > Note: The `Icon Name` maps to the icon list registered in the canvas theme asset
+
+## Show UI
+
+Open your player controller and create your UI widget and add to viewport
+
+![image|690x289](../images/unreal/tutorial/Canvas/583839d36fe04688000534c8bbaaa9baba664ee0.png)
+
+This will make the UI show up when your game starts. The Dungeon Canvas widget you placed in your UI will auto register itself when it constructs. So there's no more setup required here on the UI side
+
