@@ -9,6 +9,13 @@ The last node of your flow graph should always be the `Finalize Graph` node.  Th
   path from the opposite direction. It will always create a playable level
 * Remove unused links from the layout graph 
 
+:::note
+Before a door is committed as one-way, the builder walks the level the way a player would, picking up keys and
+opening locked doors along the way.  If a one-way door would leave the player stranded (e.g. a key that
+can only be reached through a one-way door with no way back), that door stays normal instead.  You'll still
+get one-way doors everywhere they are safe to place
+:::
+
 ## Add Finalize Node
 
 Open the flow graph we designed earlier and add a `Finalize Graph` node
