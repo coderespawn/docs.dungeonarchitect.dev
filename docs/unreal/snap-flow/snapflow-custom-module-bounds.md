@@ -23,9 +23,9 @@ Open up a snap module that you designed
 
 ![image|690x465](../images/unreal/tutorial/D/0/D-0-f7dafc5d03b787a11e9017b58e4c69fd10d61eeb.jpeg)
 
-Drop in a `Snap Map Module Bounds` actor on to the scene. You can have as many of these actors as you like in the module to cover the bounds
+Drop in a `Snap Module Bound Shape` actor on to the scene. You can have as many of these actors as you like in the module to cover the bounds
 
-![image|508x259](../images/unreal/tutorial/D/0/D-0-9d093fd8c79db03467b66101c0b21b1a153c133b.png)
+![image|508x259](../images/unreal/tutorial/D/0/snap_bounds_shape_search.png)
 
 ![image|689x490](../images/unreal/tutorial/D/0/D-0-5580c1e139bad07ed4128e9c8f14047a0030d96e.jpeg)
 

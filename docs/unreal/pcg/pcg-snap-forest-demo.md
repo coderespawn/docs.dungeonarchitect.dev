@@ -72,9 +72,9 @@ Drop this connection in a few places around the spline.  Don't keep it too close
 
 Make sure the red connection arrows are facing outwards
 
-Next, drop in a `Snap Map Module Bounds` actor
+Next, drop in a `Snap Module Bound Shape` actor
 
-![image|396x195](../images/unreal/tutorial/PCG/02/PCG-02-71c3a98fb04c75fdbd56a395d1ecf151e7881311.png)
+![image|508x259](../images/unreal/tutorial/D/0/snap_bounds_shape_search.png)
 
 Add more points as needed and wrap it around the spline shape.   Keep it a bit further away from the spline, as the ditch spline creates the assets outside the spline shape. Make sure the bounds are near the snap connection actor
 
