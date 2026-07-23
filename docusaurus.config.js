@@ -48,10 +48,6 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/coderespawn/docs.dungeonarchitect.dev/tree/docs',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,13 +62,14 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: 'dark',
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'Dungeon Architect Docs',
         logo: {
-          alt: 'Dungeon Architect Logo',
-          src: 'img/logo.svg',
+          alt: 'Dungeon Architect',
+          src: 'img/pixel-logo.png',
         },
         items: [
           {
@@ -88,8 +85,8 @@ const config = {
             label: 'Unity',
           },
           {
-            href: 'https://github.com/coderespawn',
-            label: 'GitHub',
+            href: 'https://dungeonarchitect.dev',
+            label: 'Product',
             position: 'right',
           },
         ],
@@ -111,33 +108,24 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Dungeon Architect',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Product site',
+                href: 'https://dungeonarchitect.dev',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Video tutorials',
+                to: '/unreal/video-tutorials',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/coderespawn',
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@DungeonArchitectDev',
               },
             ],
           },
         ],
-        copyright: `Copyright (c) ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CodeRespawn. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -1,95 +1,120 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * Engine-picker landing — mirrors the dungeonarchitect.dev hero.
  */
 
-.heroBanner {
-  padding: 6rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  background: radial-gradient(circle at top left, #25364d 0%, #101b2d 55%, #05070d 100%);
-  color: #f5f7fb;
+.page {
+  min-height: calc(100vh - var(--ifm-navbar-height, 60px));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1.5rem;
+  background:
+    radial-gradient(ellipse 90% 70% at 50% -5%, rgba(167, 139, 250, 0.14) 0%, transparent 60%),
+    #14101f;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 3rem 1.5rem;
-  }
+.hero {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.logo {
+  width: 46px;
+  height: 46px;
+  margin: 0 auto 1.5rem;
+  display: block;
+  image-rendering: pixelated;
+}
+
+.eyebrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  color: #93eae2;
+  margin-bottom: 1.25rem;
 }
 
 .title {
-  font-size: 3.25rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.75rem;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.035em;
+  color: #edeaf2;
+  margin: 0 0 1.25rem;
 }
 
 .subtitle {
-  font-size: 1.15rem;
-  max-width: 540px;
-  margin: 0 auto 2.75rem auto;
-  color: rgba(245, 247, 251, 0.8);
+  color: #b8b1c7;
+  font-size: 1.1rem;
   line-height: 1.6;
+  max-width: 46ch;
+  margin: 0 auto 3rem;
 }
 
-.buttonRow {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+.engineGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  text-align: left;
 }
 
-.primaryCta,
-.secondaryCta {
-  border: none;
-  padding: 0.9rem 2.75rem;
-  border-radius: 999px;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.engineCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1.75rem;
+  border: 1px solid rgba(237, 234, 242, 0.12);
+  border-radius: 10px;
+  background: #131020;
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.primaryCta {
-  background: linear-gradient(135deg, #ffb347 0%, #ff7b7b 100%);
-  color: #10131b;
-  box-shadow: 0 12px 24px rgba(255, 123, 123, 0.22);
+.engineCard:hover {
+  border-color: rgba(167, 139, 250, 0.5);
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+  text-decoration: none;
 }
 
-.primaryCta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 18px 36px rgba(255, 123, 123, 0.3);
+.engineName {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 2.25rem;
+  letter-spacing: -0.02em;
+  color: #edeaf2;
+  margin-bottom: 0.75rem;
 }
 
-.secondaryCta {
-  background: linear-gradient(135deg, #73e0ff 0%, #7b7dff 100%);
-  color: #091222;
-  box-shadow: 0 12px 24px rgba(115, 224, 255, 0.22);
+.engineCta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: #5fd9d0;
 }
 
-.secondaryCta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 18px 36px rgba(115, 224, 255, 0.28);
+.engineCard:hover .engineCta {
+  color: #93eae2;
 }
 
-.mainSection {
-  background: #05070d;
-  text-align: center;
-  padding: 4rem 0;
+.backRow {
+  margin-top: 2.5rem;
 }
 
-.mainHeading {
-  color: #f5f7fb;
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.backLink {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: #8a8399;
+  text-decoration: none;
 }
 
-.mainCopy {
-  margin: 0 auto;
-  max-width: 640px;
-  color: rgba(209, 215, 224, 0.85);
-  font-size: 1.05rem;
-  line-height: 1.7;
+.backLink:hover {
+  color: #b8b1c7;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .engineGrid {
+    grid-template-columns: 1fr;
+  }
 }
