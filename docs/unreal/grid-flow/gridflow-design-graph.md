@@ -236,15 +236,15 @@ Add a new node ``Layout Graph > Create Key Lock`` and set it up as follows:
 
 | Property         | Value    |
 |------------------|----------|
-| Key Branch       | key_room |
-| Lock Branch      | main     |
+| Key Path         | key_room |
+| Lock Path        | main     |
 | Key Marker Name  | KeyRed   |
 | Lock Marker Name | LockRed  |
 
 ![](../images/unreal/tutorial/E/E-45.png)
 
 
-Specify the `Key Branch` as ``key_room`` and `Lock Branch` as ``main``
+Specify the `Key Path` as ``key_room`` and `Lock Path` as ``main``
 
 Set marker name for the key as ``KeyRed`` and lock as ``LockRed``.    Then in the theme file, you'd create marker nodes with these names and add your key and locked gate prefabs.
 
@@ -267,8 +267,8 @@ Add a new node ``Layout Graph > Create Key Lock`` and set it up as follows:
 
 | Property         | Value         |
 |------------------|---------------|
-| Key Branch       | main          |
-| Lock Branch      | treasure_main |
+| Key Path         | main          |
+| Lock Path        | treasure_main |
 | Key Marker Name  | KeyYellow     |
 | Lock Marker Name | LockYellow    |
 

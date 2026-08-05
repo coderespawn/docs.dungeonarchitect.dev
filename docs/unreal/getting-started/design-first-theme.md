@@ -59,7 +59,7 @@ You can use any asset you like, but for this tutorial, lets stick with the sampl
 
    
 
-Navigate to ``Dungeon Architect Content > Showcase > Legacy > Samples > DA_Candy > Meshes``.  This folder contains a set of meshes we can use for our dungeon
+Navigate to ``Dungeon Architect Content > Showcase > Samples > Themes > Candy > Meshes``.  This folder contains a set of meshes we can use for our dungeon
 
 
 ![](../images/unreal/tutorial/B/B-07.jpg)

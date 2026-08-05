@@ -36,7 +36,7 @@ We'll assign the theme ``T_DefaultGridFlow``.
 ![](../images/unreal/tutorial/E/E-03.png)
 
 
-> The above theme file is under `Dungeon Architect Content > Builders > GridFlowContent > Theme` folder 
+> The above theme file is under `Dungeon Architect Content > Core > Runtime > Builders > GridFlowContent > Theme` folder 
 > 
 > ![](../images/unreal/tutorial/E/E-04.png)
 
@@ -46,7 +46,7 @@ We'll assign the theme ``T_DefaultGridFlow``.
 
 This builder requires another asset called the `Grid Flow Graph`.   This is a graph that helps you  control the flow of your dungeon. In this section, we'll use an existing graph from the samples folder
 
-Select the Dungeon actor and in the `Grid Flow` setting assign the following asset ``DefaultGridFlow``.  This is in the folder `Dungeon Architect Content > Builders > GridFlowContent > FlowGraph`
+Select the Dungeon actor and in the `Grid Flow` setting assign the following asset ``DefaultGridFlow``.  This is in the folder `Dungeon Architect Content > Core > Runtime > Builders > GridFlowContent > FlowGraph`
 
 ![](../images/unreal/tutorial/E/E-05.png)
 

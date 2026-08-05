@@ -3,44 +3,25 @@ title: "Mini-Map"
 sidebar_position: 6
 ---
 
+Grid Flow dungeons draw their minimap through the Dungeon Canvas framework, like every other builder
+
+:::note
+The old minimap framework this page used to describe - the `Grid Flow Mini Map` actor and the
+`DungeonMiniMapTrackedObject` component - was removed in version `2.32.0` and replaced by Dungeon Canvas.
+Existing assets are redirected automatically, so `DungeonMiniMapTrackedObject` becomes a
+`Dungeon Canvas Item` component when you open an older level
+:::
+
 ## Setup
 
-Display a 2D minimap with fog of war
+Add a `Dungeon Canvas` component to your Dungeon actor, then follow the Canvas documentation
 
-![](../images/unreal/tutorial/E/E-107.jpg)
+* [Canvas Overview](../canvas/canvas-overview.md) - what the framework does and how the pieces fit together
+* [Player Setup](../canvas/canvas-player-setup.md) - getting the map on screen and revealing fog of war
+* [UI Widget](../canvas/canvas-ui-widget.md) - the interactive widget with pan and zoom
+* [Canvas Theme](../canvas/canvas-theme.md) - designing how the map looks
 
+## Tracked Objects
 
-Drop in a `Grid Flow Mini Map` actor on to the scene and configure it like below
-
-![](../images/unreal/tutorial/E/E-108.png)
-
-![](../images/unreal/tutorial/E/E-109.png)
-
-![](../images/unreal/tutorial/E/E-110.png)
-
-
-Check the player controller on how to initialize the minimap and show it on the screen ``DungeonArchitect Content > Showcase > Legacy > Samples > DA_GridFlow_Game > Blueprints > BP_GridFlowDemo_PlayerController``
-
-![`Right Click > Open Image In New Tab` for a clearer image](../images/unreal/tutorial/E/E-111.png)
- 
-![](../images/unreal/tutorial/E/E-112.png)
-
-
-Check the HUD widget on how to display this in the screen
-
-``DungeonArchitect Content > Showcase > Legacy > Samples > DA_GridFlow_Game > UI > UI_GridFowDemo_HUD``
-
-
-## Minimap Tracked Objects
-
-To track an object in the minimap, simple add the ``DungeonMiniMapTrackedObject`` component to it and configure it.
-
-
-![](../images/unreal/tutorial/E/E-114.png)
-
-
-![](../images/unreal/tutorial/E/E-113.png)
-
-The id maps to the id you specified in the MiniMap actor's icon list
-
-![](../images/unreal/tutorial/E/E-115.png)
+To show an object on the map, add a `Dungeon Canvas Item` component to it.   This is also what lets an actor
+reveal the fog of war around itself

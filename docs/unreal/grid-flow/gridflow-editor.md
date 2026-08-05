@@ -5,7 +5,7 @@ sidebar_position: 3
 
 Let's open the GridFlow asset in the editor:
 
-Navigate to ``Dungeon Architect Content > Builders > GridFlowContent > FlowGraph`` and double click on ``DefaultGridFlow``
+Navigate to ``Dungeon Architect Content > Core > Runtime > Builders > GridFlowContent > FlowGraph`` and double click on ``DefaultGridFlow``
 
 This will open the `Grid Flow Editor`
 

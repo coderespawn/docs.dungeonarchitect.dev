@@ -5,7 +5,7 @@ sidebar_position: 5
 
 You can paint your own dungeon layout on top of the procedural dungeon
 
-Select the Dungeon Edit Mode from the Modes panel.  This will allow you to use the various paint tools to draw over the existing layout
+Select the `Draw Dungeon` mode from the Modes panel.  This will allow you to use the various paint tools to draw over the existing layout
 
 ![](../images/unreal/tutorial/F/F-12.png)
 

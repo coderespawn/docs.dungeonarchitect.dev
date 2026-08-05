@@ -31,7 +31,7 @@ To access the plugin's sample contents, enable it from the Content Browser's Vie
 
 ![](../images/unreal/tutorial/J/J-21.png)
 
-Navigate to `Dungeon Architect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_FPS > Snap > Connections > DoorArt` and 
+Navigate to `Dungeon Architect Content > Showcase > Samples > Games > Legacy > DA_SnapGridFlow_FPS > Snap > Connections > DoorArt` and 
 drag-drop the `BP_SGF_Door` asset to the graph 
 
 ![](../images/unreal/tutorial/J/J-22.jpg)
@@ -119,7 +119,7 @@ enter through another nearby door
 You'll need to provide a blueprint that opens only from one way.    We'll use the sample one-way door that comes 
 bundled with the plugin
 
-Navigate to `Dungeon Architect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_FPS > Snap > Connections > DoorArt` and
+Navigate to `Dungeon Architect Content > Showcase > Samples > Games > Legacy > DA_SnapGridFlow_FPS > Snap > Connections > DoorArt` and
 drag-drop the `BP_SGF_Door_OneWay` asset to the graph
 
 ![](../images/unreal/tutorial/J/J-33.jpg)

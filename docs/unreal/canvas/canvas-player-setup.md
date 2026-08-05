@@ -9,7 +9,7 @@ You'll need a custom player controller to do two things:
 * Show your UI with the minimap widget
 * Add a component to this class, so it automatically takes care of setting everything up for you
 
-> Note: Check this sample player controller for reference: `DungeonArchitect Content > /Showcase/Legacy/Samples/DA_Canvas_Demo/Common/Blueprints/PlayerControllers/PC_CanvasDemo_Base`
+> Note: Check the canvas samples for reference: `Dungeon Architect Content > Showcase > Samples > Features > Canvas > CanvasExamples`
 
 ## Add Components
 
@@ -19,23 +19,33 @@ Select the Dungeon Actor in the scene and add the `DungeonCanvas` component to i
 
 ![C002B.png](../images/unreal/tutorial/Canvas/C002B.png)
 
-### Player Controller
+### Player Pawn
 
-Open up your Player Controller blueprint and add the `DungeonCanvasPlayerController` component to it
+Open your player pawn and add the `Dungeon Canvas Item` component to it.  This gives the pawn an icon on the
+map, and reveals the fog of war around it as it moves
 
-![C001.png](../images/unreal/tutorial/Canvas/C001.png)
+Set `Item Type` to `Player` and check `Explore Fog Of War`
 
-Whenever you possess a character in game, it automatically takes care of the following:
-* Setting up that character as a Fog of War explorer
-* Add a player icon to the character
-
-When the character is UnPossessed (e.g. in death), it will take care of cleaning up the above changes.
-
-No more setup is required here.  You may select the component and modify the fog of war settings and the icon settings
+| Property | Default | Description |
+|----------|---------|-------------|
+| Icon Name | *empty* | The icon drawn for this item.  Maps to the icon list registered in the canvas theme asset |
+| Item Type | `World Object` | `Player` entries follow the fog of war share mode set on the canvas component.  `World Object` entries ignore it - visible to everyone when no team is set, or only to their team otherwise |
+| Explore Fog Of War | `false` | Reveals the fog of war around this item.  Enable it on player pawns, and on world objects that light up the map like a shrine or a watch tower |
+| Fog Of War Explorer Enabled | `true` | Turns the exploration on and off at runtime, e.g. keep a shrine's explorer disabled until the shrine is activated.  Mark the component as replicated if you toggle it on the server |
+| Team Id | `-1` | The team this item belongs to.  `-1` means no team |
+| Orient To Rotation | `false` | Rotates the icon to match the actor's rotation |
+| Occludes Fog Of War | `false` | Blocks fog of war reveal, so this item casts a shadow on the map |
+| Hide When Out Of Sight | `false` | Hides the icon when the item is not currently visible |
+| Z Order | `0` | Higher numbers draw on top when icons overlap.  Bump the player icon up (e.g. `1000`) to keep it above everything else |
 
 ![C002.png](../images/unreal/tutorial/Canvas/C002.png)
 
-> Note: The `Icon Name` maps to the icon list registered in the canvas theme asset
+:::note
+Older projects added a `DungeonCanvasPlayerController` component to the player controller instead.  That
+component still works but is deprecated, and shows up in the editor as
+`Dungeon Canvas Player Controller Component (Deprecated)`.  The Canvas Item component replaces it, works on any
+actor rather than just the possessed pawn, and supports multiplayer
+:::
 
 ## Show UI
 

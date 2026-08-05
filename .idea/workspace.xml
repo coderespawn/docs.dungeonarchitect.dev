@@ -6,6 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="a76fa5f1-7e81-4675-9336-698a5961bc89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/advanced-dungeons/advdungeon-marker-emitters.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/advanced-dungeons/advdungeon-marker-emitters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/build-system/build-system-overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/build-system/build-system-overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/canvas/canvas-overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/canvas/canvas-overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/canvas/canvas-player-setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/canvas/canvas-player-setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/getting-started/design-first-theme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/getting-started/design-first-theme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-create-dungeon.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-create-dungeon.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-design-graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-design-graph.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-editor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-key-lock-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-key-lock-system.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-mini-map.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-mini-map.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/grid/grid-paint-mode.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/grid/grid-paint-mode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/snap-grid-flow/sgf-connections.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/snap-grid-flow/sgf-connections.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/snap-grid-flow/sgf-finalize-graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/snap-grid-flow/sgf-finalize-graph.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/snap-grid-flow/sgf-setup-gameplay.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/snap-grid-flow/sgf-setup-gameplay.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/snap-grid-flow/sgf-setup-key-locks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/snap-grid-flow/sgf-setup-key-locks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +97,9 @@
         <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
-      <envs />
+      <envs>
+        <env name="GIT_USER" value="coderespawn" />
+      </envs>
       <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
         <browser with-js-debugger="true" />
       </EXTENSION>
@@ -130,6 +149,10 @@
       <workItem from="1784176305483" duration="658000" />
       <workItem from="1784265977451" duration="3787000" />
       <workItem from="1784718717475" duration="26000" />
+      <workItem from="1784813506320" duration="3261000" />
+      <workItem from="1785312272966" duration="473000" />
+      <workItem from="1785314157727" duration="293000" />
+      <workItem from="1785941061995" duration="1120000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,7 @@ sidebar_position: 10
 The last node of your flow graph should always be the `Finalize Graph` node.  This node does the following:
 * Strategically promote some doors to `one-way` doors.  This is done to keep the player from bypassing locked doors
   by entering from another nearby door. This may also be done to keep the player from entering another 
-  path from the opposite direction. It will always create a playable level
+  path from the opposite direction
 * Remove unused links from the layout graph 
 
 :::note
@@ -15,6 +15,22 @@ opening locked doors along the way.  If a one-way door would leave the player st
 can only be reached through a one-way door with no way back), that door stays normal instead.  You'll still
 get one-way doors everywhere they are safe to place
 :::
+
+## Properties
+
+| Property | Default | Description |
+|----------|---------|-------------|
+| One Way Door Promotion Weight | `0` | How aggressively doors are promoted to one-way doors |
+| Reachability Contracts | *empty* | Routes this node validates and then preserves while promoting one-way doors |
+
+The playability walk above needs an Entrance and an Exit item to know where the level starts and ends.   On maps
+that have neither - a team map built from several spawn paths merging into a hub, for instance - there is no
+single route to check, and this is what `Reachability Contracts` is for.   Each contract names a route the
+finished map must keep open, for example each team's spawn path must be able to reach the central hub without
+running into a locked door.   The build validates every contract and retries the layout when one cannot be met
+
+The `Create Key Lock` nodes add their own pairs to this list automatically, so you only need to declare the
+routes that your own layout depends on
 
 ## Add Finalize Node
 

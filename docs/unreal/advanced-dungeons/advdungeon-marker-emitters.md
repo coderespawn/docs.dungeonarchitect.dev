@@ -63,7 +63,7 @@ This marker emitter queries the dungeon model and emits a marker at the center o
 
 (right-click and open in new tab to zoom in)
 
-The above blueprint can be found here: `DungeonArchitect > Content > Showcase > Legacy > Samples > DA_TutorialGame > Blueprints > MyCustomEmitter`
+The above blueprint can be found here: `Dungeon Architect Content > Showcase > Samples > Themes > Legacy > SimpleShapes > Blueprints > MyCustomEmitter`
 
 
 ![Marker Emitted with this name](../images/unreal/tutorial/H/H-marker_emitter_eg1_2.png)

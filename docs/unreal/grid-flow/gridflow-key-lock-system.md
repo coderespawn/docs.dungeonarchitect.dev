@@ -31,7 +31,7 @@ Notice the Key metadata has a reference to the red locked door's id
 
 ## Sample
 
-Try out the Game Sample from the Launch Pad. Navigate to ``Launch Pad > Showcase > Legacy > Samples > Grid Flow Builder > Grid Flow Game > Clone Scene``
+Try out the Grid Flow game sample, either by cloning it from the Launch Pad or by opening it directly from ``Dungeon Architect Content > Showcase > Samples > Features > GridFlow > DA_GridFlow_Game``
 
 ![](../images/unreal/tutorial/E/E-106.jpg)
 
@@ -43,4 +43,4 @@ The Sample has the following scripts:
 * Inventory: Saves the picked up keys in the inventory
 * LockedDoor: Blueprint function ``CanOpenDoor`` to check if the door can be opened. This is done by checking if the collided actor has an inventory. If so, it checks if the inventory contains a key that can open this locked door id
 
-Check the door blueprint ``Dungeon Architect Content > Builders > GridFlowContent > Art > Blueprints >  Locks > BP_GFT_LockBase > CanOpenDoor``
+Check the door blueprint ``Dungeon Architect Content > Core > Runtime > Builders > GridFlowContent > Art > Blueprints >  Locks > BP_GFT_LockBase > CanOpenDoor``

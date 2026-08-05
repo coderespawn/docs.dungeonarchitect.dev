@@ -17,7 +17,7 @@ Design beautiful minimaps for your levels using a Dungeon Canvas
 
 You can design the look of your canvas using an interactive editor.
 
-Browse through the various Dungeon Canvas samples under `Dungeon Architect Content > Showcase > Legacy > Samples > DA_Canvas_Demo`
+Browse through the various Dungeon Canvas samples under `Dungeon Architect Content > Showcase > Samples > Features > Canvas > CanvasExamples`
 
 ![image|690x315](../images/unreal/tutorial/Canvas/398f70688ebd2a8389e52fab9bba333317289ddb.png)
 

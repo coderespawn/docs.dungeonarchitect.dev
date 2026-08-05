@@ -126,7 +126,7 @@ The maker names are case-sensitive. So make sure you capitalize them correctly
 :::
 
 In the theme editor's content browser, navigate to 
-`DungeonArchitect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_SideScroller > Snap > Connection > Blueprints`
+`DungeonArchitect Content > Showcase > Samples > Games > Legacy > DA_SnapGridFlow_SideScroller > Snap > Connection > Blueprints`
 
 Drop in the following key blueprints and link them up
 
@@ -224,7 +224,7 @@ in the flow graph
 
  
 In the connection editor's content browser, navigate to
-`DungeonArchitect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_FPS > Snap > Connections > DoorArt` and drop in the following
+`DungeonArchitect Content > Showcase > Samples > Games > Legacy > DA_SnapGridFlow_FPS > Snap > Connections > DoorArt` and drop in the following
 lock blueprints and link them up
 
 * KeyRed: `BP_SGF_Door_Lock_Red`

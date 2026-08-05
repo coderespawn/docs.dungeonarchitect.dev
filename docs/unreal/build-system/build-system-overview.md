@@ -11,9 +11,14 @@ Select the Dungeon actor and inspect the properties in the Details panel
 
 ![](../images/unreal/tutorial/BuildSystem/BS01.png)
 
-If you want your dungeon to build at runtime, enable `Auto Build on Play`
+The build system settings live in the `Build System` category.   The dungeon actor already carries the build
+system component, so there is nothing to add here
 
-If you want a different dungeon everytime you play, enable `Randomize Seed on Build`
+| Property | Default | Description |
+|----------|---------|-------------|
+| Participate In Build System | `true` | Lets the build system drive this dungeon.   Uncheck it if you want to build this dungeon yourself from Blueprints |
+| Randomize Seed On Build | `false` | Picks a new seed on every build, so you get a different dungeon each time you play.   Leave it off if you want to control the seed yourself, which is what the multiplayer sample does |
+| Restart Player On Ready | `true` | Restarts the player once the dungeon is ready, so they respawn at the dungeon's spawn point.   Turn it off if you want to handle the spawn yourself.   This one is under `Advanced` |
 
 This works with multiplayer as well
 
@@ -33,71 +38,18 @@ mode.  Once built, it uses the dungeon's desired location to spawn the player in
 
 It works with multiplayer, taking care of building the same dungeon on all the connected clients and handle clients joining in late 
 
-For this to work, it needs to work closely with the GameMode.  You have two options to proceed
+For this to work, it needs to work closely with the GameMode.   You attach a component to your existing game
+mode, so your class hierarchy stays exactly as it is
 
-* Use `DungeonGameMode` as your game mode, or if you already have a custom game mode, have it subclass from `DungeonGameMode` instead of `GameMode`
-* If you don't want to modify your GameMode hierarchy structure, a cleaner approach is to attach a component to your existing GameMode without modifying its hierarchy.  This method is slightly more involved 
+:::note
+Earlier versions offered a second option, re-parenting your game mode to `DungeonGameMode`.   That class was
+removed in version `3.2.0` and the component below is now the only way to set this up.   If you are upgrading
+from an older version, re-parent your game mode back to `GameMode` and add the component
+:::
 
-We will explore both the options below
+### Add Component to your game mode
 
-### Change Class Hierarchy
-
-In this mode, we will re-parent the game mode class's hierarchy to use `DungeonGameMode` instead of `GameMode`.    
-
-> If you do not want to change the class structure, there's another cleaner method, where you just add a component to an existing game mode class and do some setup on it, refer the next section for more details  
-
-Open up your game mode and if it's parent is `GameMode`, re-parent it to `DungeonGameMode`
-
-![BS02.png](../images/BS02.jpg)
-
-![BS03.png](../images/BS03.png)
-
-
-In this example, we have a third person game mode.   If we open this, the parent class it `GameMode`.  We will change the parent to `DungeonGameMode`
-
-```mermaid
-stateDiagram-v2
-    GameMode --> BP_ThirdPersonGameMode
-```
-
-```mermaid
-stateDiagram-v2
-    GameMode --> DungeonGameMode
-    DungeonGameMode --> BP_ThirdPersonGameMode
-```
-
-If you have a chain of game mode classes like this one, find the one that subclasses from GameMode and re-parent it
-
-![BS04.png](../images/BS04.png)
-
-
-Click `Class Defaults` and change the `Parent Class`
-
-![BS05.png](../images/BS05.png)
-
-In the following example, `RPGGameModeRaid` doesn't subclass from GameMode.   Go up the chain and find the class that does.   
-Open `RPGGameModeBase` and re-parent it to `DungeonGameMode`
-
-```mermaid
-stateDiagram-v2
-    GameMode --> RPGGameModeBase
-    RPGGameModeBase --> RPGGameModeRaid
-```
-
-
-```mermaid
-stateDiagram-v2
-    GameMode --> DungeonGameMode
-    DungeonGameMode --> RPGGameModeBase
-    RPGGameModeBase --> RPGGameModeRaid
-```
-
-
-### Add Component to existing game mode
-
-In this method, instead of re-parenting your game mode class,  we will add a component to it instead, without modifying the class structure
-
-Open your existing game mode and add the component `GameModeDungeonBuildSystem`
+Open your existing game mode and add the component `Dungeon Build System Game Mode`
 
 ![BS06.png](../images/BS06.png)
 
@@ -105,11 +57,12 @@ Open your existing game mode and add the component `GameModeDungeonBuildSystem`
 
 > The game mode should subclass from `GameMode` and not `GameModeBase`
 
-Override the following methods
+Then override the game mode functions below and forward each one to the matching function on the component
 
-#### ReadToStartMatch
+#### ReadyToStartMatch
 
-Override the function `ReadToStartMatch`
+Override the function `ReadyToStartMatch` and call `Ready To Start Match` on the component.   This holds the
+match until the dungeon has finished building
 
 ![BS08.png](../images/BS08.png)
 
@@ -117,8 +70,32 @@ Override the function `ReadToStartMatch`
 
 #### FindPlayerStart
 
-Override the function `FindPlayerStart`
+Override the function `FindPlayerStart` and call `Find Player Start` on the component.   This spawns the player
+at the dungeon's spawn point instead of a `PlayerStart` you placed in the level
 
 ![BS10.png](../images/BS10.png)
 
 ![BS11.png](../images/BS11.png)
+
+## Component Reference
+
+### Dungeon Build System Game Mode
+
+| Property | Description |
+|----------|-------------|
+| Main Dungeon Tag | Finds the dungeon carrying this tag.   Leave it empty and the first dungeon in the level is used |
+| On Dungeon Ready | Fired when the dungeon is built and ready for players |
+
+| Function | Description |
+|----------|-------------|
+| Ready To Start Match | Forward your game mode's `ReadyToStartMatch` here |
+| Find Player Start | Forward your game mode's `FindPlayerStart` here |
+| Get Default Pawn Class For Controller | Optional.   Forward your game mode's `GetDefaultPawnClassForController` here if you want the build system to keep players in spectator mode until the dungeon is ready |
+| Initiate Dungeon Build | Starts the build.   The server starts immediately when ready and clients build in the background |
+| Initiate Dungeon Build And Wait For Players | Starts the build and waits for `Expected Player Count` clients to finish before the match starts.   Use this for synchronized competitive starts |
+
+### Dungeon Build System Player Controller
+
+Add this component to your player controller for multiplayer games.   It carries the client build request and
+the completion notification back to the server, so clients build the same dungeon as the server and late
+joiners catch up

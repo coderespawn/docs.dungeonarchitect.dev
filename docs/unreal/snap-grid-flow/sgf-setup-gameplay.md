@@ -242,7 +242,7 @@ Create a new Player Controller and add this to the Begin Play
 
 ![](../images/unreal/tutorial/J/J-237.png)
 
-Set the UI reference to `DungeonArchitect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_FPS > Blueprints > UI > DA_SGF_HUD.DA_SGF_HUD`
+Set the UI reference to `DungeonArchitect Content > Showcase > Samples > Games > Legacy > DA_SnapGridFlow_FPS > Blueprints > UI > DA_SGF_HUD.DA_SGF_HUD`
 
 Hit play and when you pick up keys, they will be added to the inventory and UI shows them on the screen
 
@@ -255,6 +255,6 @@ You can use this object to find the other referenced *Flow Item* objects.    The
 the valid *lock flow* items, and you can use this to check if the keys can open up a lock
 
 Navigate to the following folder and check how the sample keys and locks are implemented:
-`DungeonArchitect Content > Showcase > Legacy > Samples > DA_SnapGridFlow_SideScroller > Snap > Connection > Blueprints > BP_SGF_Key_Base`
+`DungeonArchitect Content > Showcase > Samples > Games > Legacy > DA_SnapGridFlow_SideScroller > Snap > Connection > Blueprints > BP_SGF_Key_Base`
 
 ![](../images/unreal/tutorial/J/J-238.jpg)
