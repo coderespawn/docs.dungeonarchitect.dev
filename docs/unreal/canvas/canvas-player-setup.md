@@ -32,6 +32,7 @@ Set `Item Type` to `Player` and check `Explore Fog Of War`
 | Item Type | `World Object` | `Player` entries follow the fog of war share mode set on the canvas component.  `World Object` entries ignore it - visible to everyone when no team is set, or only to their team otherwise |
 | Explore Fog Of War | `false` | Reveals the fog of war around this item.  Enable it on player pawns, and on world objects that light up the map like a shrine or a watch tower |
 | Fog Of War Explorer Enabled | `true` | Turns the exploration on and off at runtime, e.g. keep a shrine's explorer disabled until the shrine is activated.  Mark the component as replicated if you toggle it on the server |
+| Fog Of War Settings | | How far the item reveals the map and how soft the shadow edges are.  See [Fog of War & Multiplayer](canvas-fog-of-war.md) |
 | Team Id | `-1` | The team this item belongs to.  `-1` means no team |
 | Orient To Rotation | `false` | Rotates the icon to match the actor's rotation |
 | Occludes Fog Of War | `false` | Blocks fog of war reveal, so this item casts a shadow on the map |
@@ -39,6 +40,10 @@ Set `Item Type` to `Player` and check `Explore Fog Of War`
 | Z Order | `0` | Higher numbers draw on top when icons overlap.  Bump the player icon up (e.g. `1000`) to keep it above everything else |
 
 ![C002.png](../images/unreal/tutorial/Canvas/C002.png)
+
+The same component works on any actor, not just the player pawn - see
+[Fog of War & Multiplayer](canvas-fog-of-war.md) for world object explorers, teams and how exploration is
+shared between players
 
 :::note
 Older projects added a `DungeonCanvasPlayerController` component to the player controller instead.  That

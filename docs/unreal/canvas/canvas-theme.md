@@ -1,6 +1,6 @@
 ---
 title: "Canvas Theme"
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 Use the Canvas Theme Editor to design beautiful themes for your minimaps

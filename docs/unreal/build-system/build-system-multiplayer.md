@@ -47,3 +47,6 @@ to control the seed yourself
 The lobby's map preview uses the Canvas widget - see [Canvas Minimaps](../canvas/canvas-overview.md).   Building
 only up to the layout phase, so a preview can be shown without spawning any meshes, is done with the
 `BuildDungeonWithSettings` node
+
+In the match itself, who sees whose fog of war exploration on the minimap is controlled by the canvas
+share mode - see [Fog of War & Multiplayer](../canvas/canvas-fog-of-war.md)

@@ -20,6 +20,7 @@ Add a `Dungeon Canvas` component to your Dungeon actor, then follow the Canvas d
 * [Player Setup](../canvas/canvas-player-setup.md) - getting the map on screen and revealing fog of war
 * [UI Widget](../canvas/canvas-ui-widget.md) - the interactive widget with pan and zoom
 * [Canvas Theme](../canvas/canvas-theme.md) - designing how the map looks
+* [Fog of War & Multiplayer](../canvas/canvas-fog-of-war.md) - world object explorers, teams and shared exploration
 
 ## Tracked Objects
 
