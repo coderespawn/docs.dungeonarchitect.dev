@@ -1,11 +1,18 @@
 ---
 title: "Paint Mode"
 sidebar_position: 5
+unlisted: true
 ---
+
+:::warning
+The `Draw Dungeon` editor mode is retired and no longer shows up in the Modes panel.  It only ever worked with
+the Grid builder.  This page is kept for reference until the paint tools move into the `Dungeon Tools` editor
+mode
+:::
 
 You can paint your own dungeon layout on top of the procedural dungeon
 
-Select the `Draw Dungeon` mode from the Modes panel.  This will allow you to use the various paint tools to draw over the existing layout
+The paint tools live in the `Draw Dungeon` mode, which is hidden in current versions
 
 ![](../images/unreal/tutorial/F/F-12.png)
 

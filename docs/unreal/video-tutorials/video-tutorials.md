@@ -40,6 +40,12 @@ A faster, visual workflow — drag and drop meshes directly in the viewport with
 
 <iframe width="100%" height="540" loading="lazy" src="https://www.youtube.com/embed/99YniYNoT1E" frameborder="0" allowfullscreen></iframe>
 
+### Spatial Constraints
+
+Use a mesh node's spatial constraint to check the state of nearby tiles — place statues on corners only, and similar conditional layouts.
+
+<iframe width="100%" height="540" loading="lazy" src="https://www.youtube.com/embed/eL4C42A7rx4" frameborder="0" allowfullscreen></iframe>
+
 ---
 
 ## Foundry Theme Series
@@ -115,6 +121,40 @@ Node-driven paths on a tilemap — cycles, key-locks and item placement.
 Build a Cell Flow graph from the ground up for organic, non-grid layouts.
 
 <iframe width="100%" height="540" loading="lazy" src="https://www.youtube.com/embed/Q7c4UwVqlPs" frameborder="0" allowfullscreen></iframe>
+
+### Snap Flow: Sample Game
+
+Explore the Snap Flow sample game — minimaps, key/lock demo, NPCs and navigation.
+
+<iframe width="100%" height="540" loading="lazy" src="https://www.youtube.com/embed/woKkR6P_sHY" frameborder="0" allowfullscreen></iframe>
+
+### Snap Flow: MiniMap Demo
+
+<iframe width="100%" height="540" loading="lazy" src="https://www.youtube.com/embed/R5Lcx9YSYpo" frameborder="0" allowfullscreen></iframe>
+
+### Snap Flow: Multi-Level Dungeons
+
+<iframe width="100%" height="540" loading="lazy" src="https://www.youtube.com/embed/9Crl9tGkHXA" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## Advanced Dungeons
+
+### Runtime Navigation
+
+Enable runtime nav mesh generation and automatically regenerate navigation on runtime-built dungeons.
+
+<iframe width="100%" height="540" loading="lazy" src="https://www.youtube.com/embed/uowWAVwEiEc" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## PCG Integration
+
+### PCG Framework Overview
+
+How Dungeon Architect combines with Unreal Engine's PCG framework, including the Electric Dreams forest sample.
+
+<iframe width="100%" height="540" loading="lazy" src="https://www.youtube.com/embed/iplZmwlaSq0" frameborder="0" allowfullscreen></iframe>
 
 ---
 

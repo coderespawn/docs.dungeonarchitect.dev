@@ -7,6 +7,17 @@ Use the Canvas Theme Editor to design beautiful themes for your minimaps
 
 You can use an existing theme, or create your own
 
+Stacking SDF driven layers in the Canvas Theme Editor - outlines, borders, fills and fog
+
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/4R46AmPFGLA"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
+
 ## Open Existing Theme
 
 Navigate to the following path and open an existing Dungeon Canvas Theme Asset

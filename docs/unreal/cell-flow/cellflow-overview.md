@@ -15,7 +15,14 @@ the Finalize node all work the way you already know them
 
 This walkthrough builds a Cell Flow graph from scratch
 
-<iframe width="100%" height="540" loading="lazy" src="https://www.youtube.com/embed/Q7c4UwVqlPs" frameborder="0" allowfullscreen></iframe>
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/Q7c4UwVqlPs"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
 
 ## Grid or Voronoi
 
@@ -47,7 +54,7 @@ The layout graph nodes execute in this order
 
 Cell Flow is the builder most often paired with the voxel workflow, which carves caves and islands out of a
 voxel volume instead of spawning modular meshes.   Voxel carving is configured on the Dungeon actor and is not
-exclusive to this builder - see [Voxel Worlds](../advanced-dungeons/advdungeon-voxel-worlds.md)
+exclusive to this builder - see [Voxel Worlds](../voxel/voxel-overview.md)
 
 ## Next Steps
 

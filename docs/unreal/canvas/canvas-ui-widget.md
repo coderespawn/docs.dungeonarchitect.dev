@@ -7,6 +7,17 @@ sidebar_position: 2
 
 We need to show the minimap in your screen. Create a new UMG User widget (or open an existing one) and drag drop the `Dungeon Canvas Widget` on to the screen
 
+Turning the minimap into a full screen, pannable and zoomable map
+
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/qmYAaofChWQ"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
+
 ![image|622x499](../images/unreal/tutorial/Canvas/1e7377e11cc6f99d7befa4dda9b624481e0e19d2.png)
 
 

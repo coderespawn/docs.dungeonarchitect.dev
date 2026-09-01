@@ -7,6 +7,17 @@ sidebar_position: 1
 
 Design beautiful minimaps for your levels using a Dungeon Canvas
 
+This walks through adding the minimap widget to your HUD, with fog of war exploration
+
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/BbIjfVo_KRc"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
+
 ![image|500x500](../images/unreal/tutorial/Canvas/ea209d236c37b311a1399f510917942de933635d.jpeg)
 
 ![image|500x500](../images/unreal/tutorial/Canvas/d3685856653dcff8cb4c679efd3916fbe4692481.jpeg)

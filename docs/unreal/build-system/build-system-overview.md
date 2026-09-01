@@ -7,6 +7,15 @@ sidebar_position: 1
 
 Build your dungeons at runtime using the automated build system
 
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/2mn9s0Mftqc"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
+
 Select the Dungeon actor and inspect the properties in the Details panel
 
 ![](../images/unreal/tutorial/BuildSystem/BS01.png)
@@ -76,6 +85,19 @@ at the dungeon's spawn point instead of a `PlayerStart` you placed in the level
 ![BS10.png](../images/BS10.png)
 
 ![BS11.png](../images/BS11.png)
+
+### With the Game Animation Sample
+
+Combining the build system with Epic's Game Animation Sample, for a playable character in a generated dungeon
+
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/YkhUr_u0Cpg"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
 
 ## Component Reference
 

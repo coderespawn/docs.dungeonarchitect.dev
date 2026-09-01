@@ -59,7 +59,7 @@ Do the same of the other 2 doors
 ![image|634x500](../images/unreal/tutorial/D/0/D-0-b00f0ddaf59f34cf3d376ef1af0516795151a55c.jpeg)
 
 
-> IMPORTANT: After you modify the bounds, it's important that you rebuild the [Module database cache](https://docs.dungeonarchitect.dev/unreal/snap-flow/register-modules)
+> IMPORTANT: After you modify the bounds, it's important that you rebuild the [Module database cache](https://docs.dungeonarchitect.dev/unreal/snap-flow/snapflow-register-modules)
 
 
 ## Polygon Shape

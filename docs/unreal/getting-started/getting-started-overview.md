@@ -8,6 +8,18 @@ Welcome to Dungeon Architect, a powerful plugin for creating intricate and immer
 In this section, we'll guide you through the initial steps to quickly start building your first dungeon and designing custom themes. 
 You'll discover the wide range of possibilities Dungeon Architect offers, enabling you to unleash your creativity and craft unique gaming experiences.
 
+If you'd rather follow along on video, this one installs the plugin, browses the Launch Pad samples and
+generates a first dungeon
+
+<iframe
+    width="100%"
+    height="540"
+    src="https://www.youtube.com/embed/eXI6MUaGIq4"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+/>
+
 ![](../images/unreal/tutorial/B/B-02.jpg)
 
 
