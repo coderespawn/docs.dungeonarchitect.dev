@@ -11,15 +11,23 @@ The [Player Setup](canvas-player-setup.md) page covers the player pawn.  This pa
 
 ## World Object Explorers
 
-
 A world object can light up the map around it, like a shrine or a watch tower the player discovers
 
-* Add the `Dungeon Canvas Item` component to the actor
+For example, the theme below spawns this actor at the `LevelGoal` marker, so it ends up in the level as the dungeon's exit
+
+![C026.jpg](../images/unreal/tutorial/Canvas/C026.jpg)
+
+Open that actor and add a `Dungeon Canvas Item` component to it, the same way as on a pawn
+
+![C027.jpg](../images/unreal/tutorial/Canvas/C027.jpg)
+
 * Leave `Item Type` as `World Object`
 * Check `Explore Fog Of War`
-* Optionally set an `Icon Name` if you also want an icon drawn for it
+* Set an `Icon Name` if you also want an icon drawn for it, e.g. `Exit`
 
-![C025.png](../images/unreal/tutorial/Canvas/C025.jpg)
+Once the dungeon builds, the exit reveals the fog of war around it and shows up on the minimap
+
+![C025.jpg](../images/unreal/tutorial/Canvas/C025.jpg)
 
 ### Fog of War Settings
 
