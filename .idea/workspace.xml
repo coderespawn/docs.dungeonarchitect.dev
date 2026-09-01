@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a76fa5f1-7e81-4675-9336-698a5961bc89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/unreal/build-system/build-system-multiplayer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/build-system/build-system-multiplayer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/canvas/canvas-material-layers.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/canvas/canvas-material-layers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/canvas/canvas-player-setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/canvas/canvas-player-setup.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/canvas/canvas-settings.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/canvas/canvas-settings.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/canvas/canvas-theme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/canvas/canvas-theme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-mini-map.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/grid-flow/gridflow-mini-map.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/unreal/canvas/canvas-fog-of-war.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unreal/canvas/canvas-fog-of-war.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +138,7 @@
       <workItem from="1785314157727" duration="293000" />
       <workItem from="1785941061995" duration="4307000" />
       <workItem from="1786096109615" duration="262000" />
-      <workItem from="1788234512401" duration="351000" />
+      <workItem from="1788234512401" duration="925000" />
     </task>
     <servers />
   </component>

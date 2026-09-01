@@ -11,12 +11,15 @@ The [Player Setup](canvas-player-setup.md) page covers the player pawn.  This pa
 
 ## World Object Explorers
 
+
 A world object can light up the map around it, like a shrine or a watch tower the player discovers
 
 * Add the `Dungeon Canvas Item` component to the actor
 * Leave `Item Type` as `World Object`
 * Check `Explore Fog Of War`
 * Optionally set an `Icon Name` if you also want an icon drawn for it
+
+![C025.png](../images/unreal/tutorial/Canvas/C025.jpg)
 
 ### Fog of War Settings
 
